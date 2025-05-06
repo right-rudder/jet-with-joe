@@ -1,0 +1,110 @@
+---
+import { FaCheck } from "react-icons/fa";
+import SmallCTA from "./SmallCTA.astro";
+
+const { program } = Astro.props;
+const cta = program.cta;
+const faqs = program.faqs;
+const included = program.included;
+const additionalCosts = program.additionalCosts;
+const benefits = program.benefits;
+---
+
+<section class="mx-auto md:px-8 py-12 bg-checkered-navy bg-fixed">
+  <!-- Program Heading -->
+  <div class="w-full text-center">
+    {program.upperHeading && (
+      <p class="mx-auto uppercase text-lg lg:text-xl max-w-3xl font-sans font-bold tracking-tight text-mariner-300">
+        {program.upperHeading}
+      </p>
+    )}
+    {program.heading && (
+      <h2 class="mx-auto mb-3 text-4xl lg:text-6xl max-w-3xl font-title font-bold tracking-tight text-accent-200">
+        {program.heading}
+      </h2>
+    )}
+    {program.subHeading && (
+      <p class="mx-auto mb-12 text-lg max-w-3xl tracking-loose text-accent-100">
+        {program.subHeading}
+      </p>
+    )}
+  </div>
+
+  <!-- Content Section -->
+  <div class="flex flex-col lg:flex-row gap-12 px-4 lg:px-8 py-16 justify-center items-start">
+    <!-- Left: Program Details -->
+    <div class="lg:w-1/2 h-full bg-mariner-100 p-8 lg:p-12 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-6">{program.title}</h2>
+      <p class="text-accent-800 leading-relaxed mb-10" set:html={program.description}></p>
+
+      <!-- Key Points -->
+      <div class="mb-10">
+        <h3 class="text-2xl font-semibold mb-4">Key Points</h3>
+        <ul class="space-y-3">
+          {program.keyPoints.map((point) => (
+            <li class="flex text-lg items-center bg-accent-50/70 p-3 rounded-md shadow-sm hover:scale-105 hover:shadow-md transition-all duration-300">
+              <FaCheck className="text-mariner-600 mr-2 w-4 flex-shrink-0" /> {point}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- What's Included -->
+      {included && (
+        <div class="mb-10">
+          <h3 class="text-2xl font-semibold mb-4">{included.heading}</h3>
+          <ul class="list-disc pl-5 text-accent-800 space-y-2">
+            {included.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <!-- Additional Costs -->
+      {additionalCosts && (
+        <div class="mb-10">
+          <h3 class="text-2xl font-semibold mb-4">{additionalCosts.heading}</h3>
+          <ul class="list-disc pl-5 text-accent-800 space-y-2">
+            {additionalCosts.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+
+    <!-- Right: FAQs, Benefits & CTA -->
+    <div class="lg:w-1/3 h-full flex flex-col gap-8 justify-between">
+      <!-- Benefits Section -->
+      {benefits && (
+        <div class="bg-accent-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-accent-900 mb-3">{benefits.heading}</h3>
+          <ul class="space-y-2">
+            {benefits.items.map((benefit) => (
+              <li class="flex items-center text-accent-800">
+                <FaCheck className="text-mariner-600 mr-2 w-3 flex-shrink-0" /> {benefit}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <!-- FAQs Section -->
+      <div class="bg-accent-50 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-accent-900 mb-3">FAQs</h3>
+        <ul class="space-y-4">
+          {faqs.map((q) => (
+            <li class="border-b pb-2 hover:bg-mariner-100 transition-all duration-300 px-3 rounded-md">
+              <h4 class="text-accent-900 font-medium">{q.question}</h4>
+              <p class="text-accent-700 text-sm mt-1" set:html={q.answer}></p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Small CTA -->
+      <SmallCTA cta={cta} />
+    </div>
+  </div>
+</section>
