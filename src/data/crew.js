@@ -5,17 +5,17 @@ const crew = {
     // SEO Header Stuff
     pageTitle: `Crew | ${COMPANY_NAME}`,
     pageDescription:
-      "Learn about Speedway Flight Training's CFI team, the premier flight school at Atlanta Speedway Airport offering exceptional training programs, a cohesive team of expert instructors, and a modern fleet. With a 100% checkride pass rate and over 1,000 graduates, we are committed to helping you achieve your aviation goals.",
+      "Learn about Jet with Joe's CFI team, the premier flight school at Atlanta Speedway Airport offering exceptional training programs, a cohesive team of expert instructors, and a modern fleet. With a 100% checkride pass rate and over 1,000 graduates, we are committed to helping you achieve your aviation goals.",
     pageKeywords:
-      "Speedway Flight Training, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Hampton, aviation school in Georgia",
+      "Jet with Joe, Hampton flight school, 100% checkride pass rate, modern aircraft fleet, pilot training Hampton, aviation school in Georgia",
 
     // Top Header
     header: {
       imagePath: "/src/assets/placeholder.webp",
-      imageAlt: "Speedway Flight Training CFIs",
+      imageAlt: "Jet with Joe CFIs",
       headerH1: `Experience</br><span>Excellence in Flight Training</span>`,
       paragraph:
-        "Our team of experienced flight instructors and aviation professionals at Speedway Flight Training is dedicated to providing world-class training. Learn more about our team and how they can help you soar to new heights in aviation.",
+        "Our team of experienced flight instructors and aviation professionals at Jet with Joe is dedicated to providing world-class training. Learn more about our team and how they can help you soar to new heights in aviation.",
       buttons: [
         {
           name: "Get in Touch",
@@ -32,11 +32,11 @@ const crew = {
 
     staffGrid: {
       imagePath: "/src/assets/placeholder.webp",
-      imageAlt: "Speedway Flight Training team standing near aircraft",
+      imageAlt: "Jet with Joe team standing near aircraft",
       upperHeading: "Meet Our Team",
       heading: "About Us",
       description: `
-        Speedway Flight Training (Speedway) was established at Atlanta Speedway Airport with a vision to provide high-quality flight training in the competitive Hampton area. What started as a passion project quickly evolved into a leading flight school with over 1,000 graduates and a 100% checkride pass rate.<br>
+        Jet with Joe (Speedway) was established at Atlanta Speedway Airport with a vision to provide high-quality flight training in the competitive Hampton area. What started as a passion project quickly evolved into a leading flight school with over 1,000 graduates and a 100% checkride pass rate.<br>
 
         Our commitment to excellence is reflected in our carefully curated team of experienced Certified Flight Instructors (CFIs), who have a combined 13,000+ flight hours and bring a wealth of real-world aviation expertise. Many of our instructors are trained in-house, ensuring a cohesive, family-like atmosphere that supports student success.<br>
 
@@ -44,54 +44,54 @@ const crew = {
 
         Our modern fleet features IFR-capable aircraft equipped with Garmin Dual G5s and advanced avionics, providing students with hands-on experience using the latest technology. Additionally, we maintain strong relationships with Designated Pilot Examiners (DPEs), ensuring a smooth path to certification for our students.<br>
 
-        Whether you're beginning your aviation journey or advancing your career, Speedway Flight Training is here to help you achieve your goals with personalized instruction, state-of-the-art equipment, and an unparalleled support system.
+        Whether you're beginning your aviation journey or advancing your career, Jet with Joe is here to help you achieve your goals with personalized instruction, state-of-the-art equipment, and an unparalleled support system.
       `,
       membersTitle: "Our Instructors",
       members: [
         {
           name: `Alex Feldman<br><small class="text-accent-100 font-normal text-sm">Chief Pilot, CFI-I, MEI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Alex Feldman, Chief Pilot, CFI-I, and MEI of Speedway Flight Training",
+          imageAlt: "Alex Feldman, Chief Pilot, CFI-I, and MEI of Jet with Joe",
         },
         {
           name: `Cameron Diamond<br><small class="text-accent-100 font-normal text-sm">Asst Chief Pilot, CFI-I, MEI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Cameron Diamond, Asst Chief Pilot, CFI-I, MEI at Speedway Flight Training",
+          imageAlt: "Cameron Diamond, Asst Chief Pilot, CFI-I, MEI at Jet with Joe",
         },
         {
           name: `Parker Capp<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Parker Capp, CFI at Speedway Flight Training",
+          imageAlt: "Parker Capp, CFI at Jet with Joe",
         },
         {
           name: `Dror Waissengrin<br><small class="text-accent-100 font-normal text-sm">CFI-I</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Dror Waissengrin, CFI-I at Speedway Flight Training",
+          imageAlt: "Dror Waissengrin, CFI-I at Jet with Joe",
         },
         {
           name: `Matthew Ronder-Seid<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Matthew Ronder-Seid, CFI at Speedway Flight Training",
+          imageAlt: "Matthew Ronder-Seid, CFI at Jet with Joe",
         },
         {
           name: `Jack Keshishian<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Jack Keshishian, CFI at Speedway Flight Training",
+          imageAlt: "Jack Keshishian, CFI at Jet with Joe",
         },
         {
           name: `Chris Ghazarian<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Chris Ghazarian, CFI at Speedway Flight Training",
+          imageAlt: "Chris Ghazarian, CFI at Jet with Joe",
         },
         {
           name: `Andre Dassin<br><small class="text-accent-100 font-normal text-sm">CFI</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Andre Dassin, CFI at Speedway Flight Training",
+          imageAlt: "Andre Dassin, CFI at Jet with Joe",
         },
         {
           name: `Mason Morrow<br><small class="text-accent-100 font-normal text-sm">CFI-I</small>`,
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Mason Morrow, CFI-I at Speedway Flight Training",
+          imageAlt: "Mason Morrow, CFI-I at Jet with Joe",
         },
       ],
     },

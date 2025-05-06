@@ -2,7 +2,7 @@ const testimonialsData = {
   upperHeading: "The Speedway Experience",
   heading: "What Our Students Are Saying",
   headingText: [
-    "At Speedway Flight Training, we pride ourselves on offering top-notch training with a personal touch. Our goal is to create confident, capable pilots while fostering a professional yet welcoming atmosphere.",
+    "At Jet with Joe, we pride ourselves on offering top-notch training with a personal touch. Our goal is to create confident, capable pilots while fostering a professional yet welcoming atmosphere.",
     "Check out what our students and visitors have to say about their journey with Speedway!"
   ],
   buttonText: "Share Your Experience",
@@ -10,7 +10,7 @@ const testimonialsData = {
     "https://g.page/r/CaFIJjUwvpBsEBM/review",
   reviews: [
     {
-      body: `Speedway flight training is by far the best flight school on the south side of Atlanta. The planes and instructors are top notch. Speedway airport is fantastic for flight training. It's not too busy which allows for more training and it also has a nice fbo and staff.`,
+      body: `Jet with Joe is by far the best flight school on the south side of Atlanta. The planes and instructors are top notch. Speedway airport is fantastic for flight training. It's not too busy which allows for more training and it also has a nice fbo and staff.`,
       author: "Noah"
     },
     {
@@ -18,11 +18,11 @@ const testimonialsData = {
       author: "Brandon S."
     },
     {
-      body: `Speedway Flight training is the real deal! Top notch instructors, great fleet and affordable. I've trained with Joe for IRA rating and passed my checkride, all while working a full time job! Loved the experience and will continue to pursue the remaining ratings needed to obtain the required minimums.`,
+      body: `Jet with Joe is the real deal! Top notch instructors, great fleet and affordable. I've trained with Joe for IRA rating and passed my checkride, all while working a full time job! Loved the experience and will continue to pursue the remaining ratings needed to obtain the required minimums.`,
       author: "Elijah L."
     },
     {
-      body: `Great place to train and fly. I received all my flight training here, private through Certified Flight Instructor. The owners have always ensured the planes are in great shape and regular maintenance is up to date. Very affordable cost to rent the planes with the integrated avionics, autopilot and primary flight display. The instructors are top notch and care about their students progress and success. The airport is quiet, 5,500ft runway with really cool views of Atlanta Motor Speedway. Overall, I would definitely recommend trying out an introduction flight with Speedway Flight Training and see where it takes you.`,
+      body: `Great place to train and fly. I received all my flight training here, private through Certified Flight Instructor. The owners have always ensured the planes are in great shape and regular maintenance is up to date. Very affordable cost to rent the planes with the integrated avionics, autopilot and primary flight display. The instructors are top notch and care about their students progress and success. The airport is quiet, 5,500ft runway with really cool views of Atlanta Motor Speedway. Overall, I would definitely recommend trying out an introduction flight with Jet with Joe and see where it takes you.`,
       author: "Cory C."
     },
     {

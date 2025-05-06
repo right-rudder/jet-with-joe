@@ -120,7 +120,7 @@ const FinancingTabs = () => {
               the provided information, a co-borrower may be required.
             </p>
             <p className="font-semibold pt-5">How are the funds transferred?</p>
-            <p>Stratus Financial pays the funds directly to Speedway Flight Training.</p>
+            <p>Stratus Financial pays the funds directly to Jet with Joe.</p>
           </div>
           <div className="pt-10 self-start">
             <h3 className="font-semibold text-xl">Additional Resources</h3>
@@ -242,7 +242,7 @@ const FinancingTabs = () => {
           </p>
           <p className="pt-5">
             Don't let financial barriers hold you back from reaching new
-            heights. Start your journey with Speedway Flight Training and Flight Training
+            heights. Start your journey with Jet with Joe and Flight Training
             Finance.
           </p>
 

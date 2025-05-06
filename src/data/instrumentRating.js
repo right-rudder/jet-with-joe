@@ -2,9 +2,9 @@ const instrumentRating = {
   data: {
     slug: "instrument-rating",
     // SEO Header Stuff
-    pageTitle: "INSTRUMENT RATING | Speedway Flight Training",
+    pageTitle: "INSTRUMENT RATING | Jet with Joe",
     pageDescription:
-      "Take your pilot skills to the next level with Speedway Flight Training’s Instrument Rating Course. Learn to fly confidently in challenging weather and low-visibility conditions while enhancing your navigation skills.",
+      "Take your pilot skills to the next level with Jet with Joe’s Instrument Rating Course. Learn to fly confidently in challenging weather and low-visibility conditions while enhancing your navigation skills.",
     pageKeywords:
       "Instrument Rating , IFR training Hampton, advanced pilot training, learn to fly in low visibility, instrument flight rules, instrument pilot certification",
 
@@ -13,7 +13,7 @@ const instrumentRating = {
       stars: true,
       imagePath: "/src/assets/placeholder.webp",
       imageAlt:
-        "Speedway Flight Training student learning IFR flying in a Cessna cockpit",
+        "Jet with Joe student learning IFR flying in a Cessna cockpit",
       headerH1: `Instrument <br>Rating </span>`,
       paragraph: `Elevate your piloting expertise with an Instrument Rating. Master flying in diverse weather conditions, navigate with precision, and unlock the ability to operate under instrument flight rules (IFR).`,
       buttons: [
@@ -42,13 +42,13 @@ const instrumentRating = {
       upperHeading: "Roadmap",
       heading: "Instrument Rating",
       descriptions: [
-        "At Speedway Flight Training, we focus on comprehensive training to ensure you develop the technical skills and knowledge required to excel in instrument flight. From classroom learning to real-world IFR scenarios, we’ll guide you every step of the way.",
+        "At Jet with Joe, we focus on comprehensive training to ensure you develop the technical skills and knowledge required to excel in instrument flight. From classroom learning to real-world IFR scenarios, we’ll guide you every step of the way.",
       ],
       steps: [
         {
           title: "Meet Eligibility Requirements",
           paragraphs: [
-            "To begin the Instrument Rating , you must hold a Private Pilot License (PPL) and meet the FAA’s medical requirements. At Speedway Flight Training, we’ll guide you through every step of the process to ensure you’re ready to begin advanced training.",
+            "To begin the Instrument Rating , you must hold a Private Pilot License (PPL) and meet the FAA’s medical requirements. At Jet with Joe, we’ll guide you through every step of the process to ensure you’re ready to begin advanced training.",
             "Additionally, you’ll need proficiency in English for communication and interpretation of IFR flight procedures. If you’re ready to enhance your piloting skills, this course is the next step in your journey.",
           ],
           imagePath: "/src/assets/placeholder.webp",
@@ -61,7 +61,7 @@ const instrumentRating = {
             "With the guidance of our experienced instructors, you’ll prepare to pass the FAA Instrument Rating Knowledge Test, which assesses your understanding of instrument flight principles and regulations.",
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Students in a classroom at Speedway Flight Training",
+          imageAlt: "Students in a classroom at Jet with Joe",
         },
         {
           title: "Flight Training",
@@ -75,7 +75,7 @@ const instrumentRating = {
         {
           title: "Cross-Country Training",
           paragraphs: [
-            "The FAA requires at least one IFR cross-country flight of 250 nautical miles, demonstrating your ability to plan and execute a flight using instrument navigation. At Speedway Flight Training, we’ll help you prepare for this critical milestone, ensuring you feel confident in your planning and decision-making abilities.",
+            "The FAA requires at least one IFR cross-country flight of 250 nautical miles, demonstrating your ability to plan and execute a flight using instrument navigation. At Jet with Joe, we’ll help you prepare for this critical milestone, ensuring you feel confident in your planning and decision-making abilities.",
             "This phase of training will test your ability to communicate with air traffic control, handle in-flight adjustments, and manage complex navigation challenges.",
           ],
           imagePath: "/src/assets/placeholder.webp",
@@ -94,14 +94,14 @@ const instrumentRating = {
           title: "Prepare for and Pass the Checkride",
           paragraphs: [
             "The final step is the FAA Instrument Rating Checkride, which includes both an oral and practical exam. During the oral portion, you’ll demonstrate your understanding of IFR rules, procedures, and navigation. In the flight portion, you’ll showcase your ability to operate an aircraft solely by reference to instruments.",
-            "At Speedway Flight Training, we provide mock checkrides and individualized coaching to ensure you’re fully prepared to succeed. Once you pass, you’ll be certified to fly under Instrument Flight Rules (IFR), opening new possibilities for your aviation journey.",
+            "At Jet with Joe, we provide mock checkrides and individualized coaching to ensure you’re fully prepared to succeed. Once you pass, you’ll be certified to fly under Instrument Flight Rules (IFR), opening new possibilities for your aviation journey.",
           ],
           imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Student pilot celebrating after passing their checkride",
         },
       ],
       finalParagraph:
-        "Completing the Instrument Rating Course at Speedway Flight Training equips you with the knowledge and skills to safely and confidently fly in a variety of conditions. Take your next step toward becoming a more versatile and capable pilot.",
+        "Completing the Instrument Rating Course at Jet with Joe equips you with the knowledge and skills to safely and confidently fly in a variety of conditions. Take your next step toward becoming a more versatile and capable pilot.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll",

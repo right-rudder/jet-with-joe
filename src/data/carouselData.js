@@ -7,7 +7,7 @@ export const carouselData = [
     programPath: "private-pilot-course",
     imagePath: "/src/assets/placeholder.webp",
     imageAlt:
-      "Student pilot training for Private Pilot License at Speedway Flight Training in Hampton, GA",
+      "Student pilot training for Private Pilot License at Jet with Joe in Hampton, GA",
   },
   {
     title: "Instrument Rating (IR)",
@@ -25,7 +25,7 @@ export const carouselData = [
     programPath: "commercial-pilot",
     imagePath: "/src/assets/placeholder.webp",
     imageAlt:
-      "Commercial Pilot student practicing advanced maneuvers at Speedway Flight Training in Hampton, GA",
+      "Commercial Pilot student practicing advanced maneuvers at Jet with Joe in Hampton, GA",
   },
   {
     title: "Multi-Engine Training",
@@ -43,6 +43,6 @@ export const carouselData = [
     programPath: "certified-flight-instructor",
     imagePath: "/src/assets/placeholder.webp",
     imageAlt:
-      "Certified Flight Instructor training session at Speedway Flight Training near Atlanta",
+      "Certified Flight Instructor training session at Jet with Joe near Atlanta",
   },
 ];

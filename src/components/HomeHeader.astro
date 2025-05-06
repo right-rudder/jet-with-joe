@@ -1,12 +1,12 @@
 ---
-import { ADDRESS_CITY, ADDRESS_STATE, AIRPORT } from "../consts";
+import { ADDRESS_CITY, ADDRESS_STATE, CITIES } from "../consts";
 import { Image } from "astro:assets";
-import HeroImage from "../assets/speedway-checkered-flag-atlanta-hampton-georgia-plane-3.webp";
+import HeroImage from "../assets/stock-avery-murray-pz0sXiMIxgw-unsplash.jpg";
 
 const data = {
-  imageAlt: "Speedway Flight Training aircraft flying over Hampton, Georgia",
-  catch: "Fly Fast",
-  title: `Accelerated Flight Training Programs in ${AIRPORT || `${ADDRESS_CITY}, ${ADDRESS_STATE}`}`,
+  imageAlt: "Jet with Joe aircraft flying over Hampton, Georgia",
+  catch: "Change your altitude!",
+  title: `Accelerated Flight Training Programs in ${CITIES || `${ADDRESS_CITY}, ${ADDRESS_STATE}`}`,
   buttons: [
     {
       text: "Discovery flight",
@@ -22,7 +22,7 @@ const data = {
 
 <section
   class="relative h-[100vh] lg:h-[83vh] overflow-hidden flex items-center justify-center md:justify-end p-0 m-0"
-  aria-label="Speedway Flight Training, Atlanta Speedway Airport, Hampton, Georgia"
+  aria-label="Jet with Joe, Atlanta Speedway Airport, Hampton, Georgia"
 >
 
   {HeroImage && (

@@ -3,7 +3,7 @@ import { COMPANY_NAME } from "../consts";
 const spinEndorsementData = {
   pageTitle: `Spin Endorsement | ${COMPANY_NAME}`,
   pageDescription:
-    "Complete your FAA spin endorsement at Speedway Flight Training. This one-day program helps future CFIs build confidence and meet regulatory stall/spin training requirements.",
+    "Complete your FAA spin endorsement at Jet with Joe. This one-day program helps future CFIs build confidence and meet regulatory stall/spin training requirements.",
   pageKeywords:
     "spin endorsement, CFI spin training, FAA spin endorsement, stall recovery training, spin maneuvers, flight instructor requirements",
 
@@ -35,11 +35,11 @@ const spinEndorsementData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Spin Endorsement program</strong> is designed for aspiring flight instructors and pilots seeking greater confidence in stall/spin scenarios.
+      Jet with Joe’s <strong>Spin Endorsement program</strong> is designed for aspiring flight instructors and pilots seeking greater confidence in stall/spin scenarios.
       <br/><br/>
       🛩 <strong>Accelerated Format:</strong> Complete in as little as <strong>1 day</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$700</strong> (Includes 2 hours of flight instruction).<br/>
-      📍 <strong>Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      📍 <strong>Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       📜 <strong>FAA Requirement:</strong> Endorsement required for CFIs under <strong>14 CFR §61.183(i)</strong>.<br/>
       ✈️ <strong>Aircraft:</strong> Certified for spin maneuvers with dual controls.<br/>
       <br/>
@@ -93,7 +93,7 @@ const spinEndorsementData = {
       imageAlt: "Speedway aircraft parked outside hangar at KHMP",
       title: "Ready to Earn Your Spin Endorsement?",
       description:
-        "Speedway Flight Training makes it easy to complete your spin training and meet FAA CFI requirements. Schedule your one-day session and train with confidence.",
+        "Jet with Joe makes it easy to complete your spin training and meet FAA CFI requirements. Schedule your one-day session and train with confidence.",
       button: {
         name: "Apply Now",
         link: "/enroll",

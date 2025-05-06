@@ -4,11 +4,11 @@
 
 @layer components {
   .btn-primary {
-    @apply text-center tracking-wide font-sans2 font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-700 w-fit h-fit text-accent-100 rounded-sm hover:bg-accent-200 hover:text-mariner-900 duration-300;
+    @apply text-center tracking-wide font-sans2 font-bold text-xl lg:text-2xl uppercase py-3 px-6 bg-primary-700 w-fit h-fit text-accent-100 rounded-sm hover:bg-accent-200 hover:text-cod-gray-900 duration-300;
   }
 
   .btn-accent {
-    @apply text-center tracking-wide font-sans2 font-bold uppercase py-3 px-6 w-fit rounded-sm duration-300 bg-accent-100 text-mariner-950 text-xl hover:bg-mariner-950 hover:text-accent-100;
+    @apply text-center tracking-wide font-sans2 font-bold uppercase py-3 px-6 w-fit rounded-sm duration-300 bg-accent-100 text-cod-gray-950 text-xl hover:bg-cod-gray-950 hover:text-accent-100;
   }
 
   .btn-animate {

@@ -9,7 +9,7 @@ const resultB = {
     pageDescription:
       `You have the precision and discipline required for aviation. Your attention to detail will make you a safe and reliable pilot. The cockpit is calling your name! Join us at ${COMPANY_NAME} and rise up to the challenge!`,
     pageKeywords:
-      `quiz, pilot quiz, Speedway, Speedway Flight Training, Hampton, Hampton, result B`,
+      `quiz, pilot quiz, Speedway, Jet with Joe, Hampton, Hampton, result B`,
 
     header: {
       imagePath:

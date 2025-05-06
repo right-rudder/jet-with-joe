@@ -16,9 +16,9 @@ const instrumentRatingData = {
     stars: true,
     imagePath: "/src/assets/stock-kristina-delp-xx7EiLeralM-unsplash.webp",
     imageAlt:
-      "Speedway Flight Training aircraft flying in instrument conditions",
+      "Jet with Joe aircraft flying in instrument conditions",
     headerH1: `Instrument <br>RATING</span>`,
-    paragraph: `Expand your flight skills and master IFR procedures with Speedway Flight Training’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
+    paragraph: `Expand your flight skills and master IFR procedures with Jet with Joe’s Instrument Rating program. Train with expert instructors and gain confidence flying in low-visibility conditions.`,
     buttons: [
       {
         name: "Apply Now",
@@ -42,11 +42,11 @@ const instrumentRatingData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Instrument Rating (IR) program</strong> is designed for pilots who want to <strong>expand their flight capabilities</strong> and gain the skills to fly safely under IFR conditions.
+      Jet with Joe’s <strong>Instrument Rating (IR) program</strong> is designed for pilots who want to <strong>expand their flight capabilities</strong> and gain the skills to fly safely under IFR conditions.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Earn your IR in <strong>6-8 weeks</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Self-paced option available.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$13,000</strong> (based on <strong>40 flight training hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>IFR-certified fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>40 hours of instrument flight training</strong>, including simulated instrument training and cross-country time.<br/>
@@ -106,10 +106,10 @@ const instrumentRatingData = {
     cta: {
       imagePath:
         "/src/assets/atlanta-airport-Speedway-Flight-Training-129.webp",
-      imageAlt: "Speedway Flight Training student practicing IFR navigation",
+      imageAlt: "Jet with Joe student practicing IFR navigation",
       title: "Advance Your Flight Skills with an Instrument Rating",
       description:
-        "Take control in IFR conditions with expert training at Speedway Flight Training. Enroll in our Instrument Rating program today and gain the skills to fly safely in all weather conditions.",
+        "Take control in IFR conditions with expert training at Jet with Joe. Enroll in our Instrument Rating program today and gain the skills to fly safely in all weather conditions.",
       button: {
         name: "Apply Now",
         link: "/enroll",

@@ -1,6 +1,6 @@
 const content = {
   imagePath: "/src/assets/placeholder.webp",
-  imageAlt: "Speedway Flight Training student posing for first solo flight",
+  imageAlt: "Jet with Joe student posing for first solo flight",
   headerH1: `Do you have what it takes to become a Pilot?`,
   paragraph:
     "Discover your pilot personality with our fun and insightful quiz! Learn what kind of pilot training fits your unique style and goals.",

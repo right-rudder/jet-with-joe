@@ -45,7 +45,7 @@ const quizPage = {
       redirect_url: "/contact-confirmation",
       form_h: "Do You Have What It Takes to Be a Pilot?",
       form_p1: "Discover what kind of pilot you’re meant to be with our quick and engaging quiz! Whether you’re drawn to the challenge of mastering complex flight techniques, the excitement of exploring new horizons, or the satisfaction of achieving precision in the skies, this quiz will uncover what fuels your passion for aviation. In just a few questions, you’ll gain insight into your unique traits and how they align with the incredible opportunities that await in the world of flight.",
-      form_p2: "At Speedway Flight Training, we know every pilot’s journey is unique, and our mission is to help you find the path that fits your goals. This quiz is designed to inspire you, highlight your strengths, and provide clarity for the road ahead. Are you a trailblazer who thrives on challenges, a perfectionist with a love for precision, a collaborator who values teamwork, or an adventurer seeking thrilling experiences? Take the quiz and see how your personality aligns with the skies above Hampton!",
+      form_p2: "At Jet with Joe, we know every pilot’s journey is unique, and our mission is to help you find the path that fits your goals. This quiz is designed to inspire you, highlight your strengths, and provide clarity for the road ahead. Are you a trailblazer who thrives on challenges, a perfectionist with a love for precision, a collaborator who values teamwork, or an adventurer seeking thrilling experiences? Take the quiz and see how your personality aligns with the skies above Hampton!",
       address_1: ADDRESS_LINE_1,
       address_2: ADDRESS_LINE_2,
       gmaps: GMAPS,

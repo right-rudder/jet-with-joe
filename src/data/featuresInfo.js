@@ -1,7 +1,7 @@
 const featuresInfo = {
   title: "Fast Track to the Flight Deck",
   description:
-    "No matter where you’re starting in your aviation journey, Speedway Flight Training has a Fast Track path that fits your goals. Complete your ratings efficiently with structured training, flexible scheduling, and career-focused mentorship.",
+    "No matter where you’re starting in your aviation journey, Jet with Joe has a Fast Track path that fits your goals. Complete your ratings efficiently with structured training, flexible scheduling, and career-focused mentorship.",
   features: [
     {
       title: "Start from Zero: Full Fast Track to CFII",

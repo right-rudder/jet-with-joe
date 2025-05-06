@@ -1,9 +1,9 @@
 const fleetCompData = {
   data: {
     // SEO Header Stuff
-    pageTitle: "Fleet | Speedway Flight Training",
+    pageTitle: "Fleet | Jet with Joe",
     pageDescription:
-      "Discover Speedway Flight Training’s well-maintained fleet of aircraft, including Cessna and Piper models equipped with advanced avionics like Garmin G1000 and Dual G5 systems. Designed to support student pilots and advanced certifications with reliability and safety.",
+      "Discover Jet with Joe’s well-maintained fleet of aircraft, including Cessna and Piper models equipped with advanced avionics like Garmin G1000 and Dual G5 systems. Designed to support student pilots and advanced certifications with reliability and safety.",
     pageKeywords:
       "flight school fleet Hampton, Cessna training aircraft, Piper training planes, Garmin G1000 aircraft Georgia, IFR training fleet, aviation school planes",
 
@@ -12,9 +12,9 @@ const fleetCompData = {
       stars: true,
       imagePath: "/src/assets/placeholder.webp",
       imageAlt:
-        "Speedway Flight Training's modern fleet of training aircraft at Atlanta Speedway Airport in Hampton, GA",
+        "Jet with Joe's modern fleet of training aircraft at Atlanta Speedway Airport in Hampton, GA",
       headerH1: `Our <br><span>FLEET</span>`,
-      paragraph: `Speedway Flight Training’s fleet is meticulously maintained to provide a safe, modern, and reliable training environment. Explore our range of Cessna and Piper aircraft, ideal for both beginners and advanced pilots.`,
+      paragraph: `Jet with Joe’s fleet is meticulously maintained to provide a safe, modern, and reliable training environment. Explore our range of Cessna and Piper aircraft, ideal for both beginners and advanced pilots.`,
       buttons: [
         {
           name: "Enroll Today",
@@ -26,7 +26,7 @@ const fleetCompData = {
   },
   imagePath: "/src/assets/placeholder.webp",
   imageAlt:
-    "Cockpit view of a Speedway Flight Training aircraft with Garmin avionics during flight over Georgia",
+    "Cockpit view of a Jet with Joe aircraft with Garmin avionics during flight over Georgia",
   header: `Our Fleet`,
   fleet: [
     {
@@ -47,7 +47,7 @@ const fleetCompData = {
         "$350/hour 10 hour block (wet)",
       ],
       imageAlt:
-        "Beechcraft 95-A55 Twin Engine aircraft (N120B) at Speedway Flight Training for multi-engine certification",
+        "Beechcraft 95-A55 Twin Engine aircraft (N120B) at Jet with Joe for multi-engine certification",
     },
     {
       name: "N252SP",
@@ -85,7 +85,7 @@ const fleetCompData = {
         "$155/hour 10 hour block (wet)",
       ],
       imageAlt:
-        "1976 Cessna 172N (N76015) used for Private Pilot and CFI training at Speedway Flight Training",
+        "1976 Cessna 172N (N76015) used for Private Pilot and CFI training at Jet with Joe",
     },
     {
       name: "N7901C",
@@ -123,7 +123,7 @@ const fleetCompData = {
         "$165/hour 10 hour block (wet)",
       ],
       imageAlt:
-        "1978 Piper Archer II (N4313F) training aircraft at Speedway Flight Training's Hampton, GA location",
+        "1978 Piper Archer II (N4313F) training aircraft at Jet with Joe's Hampton, GA location",
     },
     {
       name: "N8156R",

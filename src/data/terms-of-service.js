@@ -1,6 +1,6 @@
 const terms = {
   data: {
-    heading: `Terms of Service of<br /> Speedway Flight Training`,
+    heading: `Terms of Service of<br /> Jet with Joe`,
     subheading: `Last updated: 04/04/2025`,
     content: [
       {
@@ -12,43 +12,43 @@ const terms = {
       {
         heading: "Use License",
         paragraphs: [
-          "Permission is granted to temporarily download one copy of the materials on Speedway Flight Training's website for personal, non-commercial transitory viewing only. This is a license grant, not a transfer of title, and under this license you may not:",
+          "Permission is granted to temporarily download one copy of the materials on Jet with Joe's website for personal, non-commercial transitory viewing only. This is a license grant, not a transfer of title, and under this license you may not:",
           "• Modify or copy the materials",
           "• Use the materials for any commercial purpose or public display",
           "• Attempt to reverse engineer any software contained on the website",
           "• Remove any copyright or proprietary notations from the materials",
           "• Transfer the materials to another person or mirror them on another server",
-          "Speedway Flight Training may terminate this license if any of these restrictions are violated. Upon termination, you must destroy any downloaded materials in your possession, whether in printed or electronic format.",
+          "Jet with Joe may terminate this license if any of these restrictions are violated. Upon termination, you must destroy any downloaded materials in your possession, whether in printed or electronic format.",
         ],
       },
       {
         heading: "Disclaimer",
         paragraphs: [
-          "All materials on Speedway Flight Training’s website are provided “as is.” Speedway Flight Training makes no warranties, expressed or implied, and disclaims all other warranties. Furthermore, Speedway does not warrant or make any representations concerning the accuracy or reliability of the materials or any linked sites.",
+          "All materials on Jet with Joe’s website are provided “as is.” Jet with Joe makes no warranties, expressed or implied, and disclaims all other warranties. Furthermore, Speedway does not warrant or make any representations concerning the accuracy or reliability of the materials or any linked sites.",
         ],
       },
       {
         heading: "Limitations",
         paragraphs: [
-          "Speedway Flight Training and its suppliers shall not be liable for any damages arising out of the use or inability to use the materials on its website, even if Speedway or a representative has been notified of the possibility of such damage. Some jurisdictions do not allow limitations on implied warranties or liability for incidental damages, so these limitations may not apply to you.",
+          "Jet with Joe and its suppliers shall not be liable for any damages arising out of the use or inability to use the materials on its website, even if Speedway or a representative has been notified of the possibility of such damage. Some jurisdictions do not allow limitations on implied warranties or liability for incidental damages, so these limitations may not apply to you.",
         ],
       },
       {
         heading: "Revisions and Errata",
         paragraphs: [
-          "The materials on Speedway Flight Training’s website may include technical, typographical, or photographic errors. Speedway does not warrant that any materials are accurate, complete, or current. We may make changes at any time without notice but are not obligated to update them.",
+          "The materials on Jet with Joe’s website may include technical, typographical, or photographic errors. Speedway does not warrant that any materials are accurate, complete, or current. We may make changes at any time without notice but are not obligated to update them.",
         ],
       },
       {
         heading: "Links",
         paragraphs: [
-          "Speedway Flight Training has not reviewed all of the sites linked to this website and is not responsible for the content of any such linked site. The presence of a link does not imply endorsement. Use of any linked website is at the user's own risk.",
+          "Jet with Joe has not reviewed all of the sites linked to this website and is not responsible for the content of any such linked site. The presence of a link does not imply endorsement. Use of any linked website is at the user's own risk.",
         ],
       },
       {
         heading: "Site Terms of Use Modifications",
         paragraphs: [
-          "Speedway Flight Training may revise these Terms of Use at any time without notice. By using this website, you agree to be bound by the then-current version of these Terms and Conditions.",
+          "Jet with Joe may revise these Terms of Use at any time without notice. By using this website, you agree to be bound by the then-current version of these Terms and Conditions.",
         ],
       },
       {
@@ -60,7 +60,7 @@ const terms = {
       {
         heading: "Governing Law",
         paragraphs: [
-          "Any claims related to Speedway Flight Training’s website shall be governed by the laws of the State of Georgia, without regard to conflict of law provisions.",
+          "Any claims related to Jet with Joe’s website shall be governed by the laws of the State of Georgia, without regard to conflict of law provisions.",
         ],
       },
       {

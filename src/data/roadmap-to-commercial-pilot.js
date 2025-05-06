@@ -2,7 +2,7 @@ const Roadmap = {
   upperHeading: "Roadmap",
   heading: "How to Become an Airline Pilot",
   descriptions: [
-      "Achieve your dream of becoming an airline pilot with Speedway Flight Training. Here’s a step-by-step guide to starting your journey from earning your first certificate to landing a commercial airline job."
+      "Achieve your dream of becoming an airline pilot with Jet with Joe. Here’s a step-by-step guide to starting your journey from earning your first certificate to landing a commercial airline job."
   ],
   steps: [
       {
@@ -13,7 +13,7 @@ const Roadmap = {
               "At Speedway, our PPL course combines flight training and ground instruction to build your confidence and foundational knowledge. This step provides the groundwork for all advanced ratings and certificates, ensuring you’re ready for the challenges ahead."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training student holding their private pilot certificate"
+          imageAlt: "Jet with Joe student holding their private pilot certificate"
       },
       {
           title: "Add an Instrument Rating",
@@ -23,7 +23,7 @@ const Roadmap = {
               "At Speedway, our training ensures precision in IFR operations and prepares you for scenarios that are standard in airline operations. An IR is essential for transitioning to commercial aviation roles."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training airplane flying under IFR conditions"
+          imageAlt: "Jet with Joe airplane flying under IFR conditions"
       },
       {
           title: "Earn a Commercial Pilot Certificate",
@@ -33,7 +33,7 @@ const Roadmap = {
               "At Speedway, our CPL program emphasizes advanced maneuvers, complex aircraft operations, and professionalism in aviation. This certificate opens doors to roles in passenger transport, cargo, or other specialized aviation fields."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training student during a commercial pilot training session"
+          imageAlt: "Jet with Joe student during a commercial pilot training session"
       },
       {
           title: "Earn a Flight Instructor Certificate",
@@ -43,7 +43,7 @@ const Roadmap = {
               "At Speedway, we offer tailored CFI programs that prepare you to instruct with confidence and professionalism. This step immerses you in the aviation community and accelerates your progress toward your career goals."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training instructor teaching a student pilot"
+          imageAlt: "Jet with Joe instructor teaching a student pilot"
       },
       {
           title: "Add a Multi-Engine Rating",
@@ -53,7 +53,7 @@ const Roadmap = {
               "Our multi-engine training focuses on precision, safety, and operational excellence. Adding this rating is a key step toward airline readiness, as it enhances your credentials and broadens your career opportunities."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training multi-engine aircraft on the runway"
+          imageAlt: "Jet with Joe multi-engine aircraft on the runway"
       },
       {
           title: "Build Experience & Prepare for Airline Interviews",
@@ -62,7 +62,7 @@ const Roadmap = {
               "When you reach 500-1,500 hours, you can start interviewing with airlines. These interviews evaluate your technical knowledge and fit within the airline’s culture. Success at this stage leads to conditional job offers and formal training for your airline career."
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Speedway Flight Training graduate during an airline interview"
+          imageAlt: "Jet with Joe graduate during an airline interview"
       },
       {
           title: "Start Your Airline Career",
@@ -75,7 +75,7 @@ const Roadmap = {
       }
   ],
   finalParagraph:
-      "Ready to take the first step in your aviation journey? Enroll in Speedway Flight Training’s Private Pilot Course today and begin your path to becoming an airline pilot.",
+      "Ready to take the first step in your aviation journey? Enroll in Jet with Joe’s Private Pilot Course today and begin your path to becoming an airline pilot.",
   finalButton: {
       name: "Enroll Now",
       link: "/enroll",

@@ -79,7 +79,7 @@ const Navbar = ({ pathname }) => {
     <nav className="">
       <div
         className={`${
-          navBar || openMobile ? "bg-mariner-950/90 " : "bg-mariner-950/50"
+          navBar || openMobile ? "bg-cod-gray-950/90 " : "bg-cod-gray-950/50"
         } duration-500 backdrop-blur-sm`}
       >
         <div className="px-5 w-full top-0 pb-2">
@@ -87,7 +87,7 @@ const Navbar = ({ pathname }) => {
             className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} w-full flex h-20 align-middle justify-between transition-all`}
             id="navbar"
           >
-            <div className="flex w-full items-center justify-between flex-auto">
+            <div className="hidden md:flex w-full items-center justify-between flex-auto">
               <div className="hidden lg:flex w-full justify-between text-lg">
                 <ul className="flex flex-1 min-w-0 lg:w-1/3 align-middle gap-2 xl:gap-5 items-center">
                   {navbarLinks.map((item, index) => (
@@ -114,7 +114,7 @@ const Navbar = ({ pathname }) => {
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`${navBar || openMobile ? "bg-mariner-950/90" : "bg-mariner-950/50 backdrop-blur-sm"} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`${navBar || openMobile ? "bg-cod-gray-950/90" : "bg-cod-gray-950/50 backdrop-blur-sm"} absolute top-16 whitespace-nowrap text-accent-100 font-bold font-sans -left-4 duration-400 ease-in-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
@@ -177,7 +177,7 @@ const Navbar = ({ pathname }) => {
                     aria-label={`${COMPANY_NAME} logo`}
                     title={COMPANY_NAME}
                     loading="eager"
-                    className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw]`}
+                    className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw] bg-white/50  rounded-xl`}
                   />
                 </a>
                 
@@ -191,7 +191,20 @@ const Navbar = ({ pathname }) => {
               </div>
             </div>
 
-            <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
+            <div className="w-full lg:hidden">
+              <a
+                href="/#top"
+                className="relative left-2"
+              >
+                <img
+                  src={`${navBar || openMobile ? LOGO_SECONDARY : LOGO_PRIMARY}`}
+                  alt={`${COMPANY_NAME} logo`}
+                  aria-label={`${COMPANY_NAME} logo`}
+                  title={COMPANY_NAME}
+                  loading="eager"
+                  className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw] bg-white/50  rounded-xl`}
+                />
+              </a>
               <button
                 type="button"
                 className="mobile-menu-button relative inline-flex items-center justify-center rounded-md p-2"
@@ -247,7 +260,7 @@ const Navbar = ({ pathname }) => {
       >
         <div className="flex justify-end pl-5 pr-[26px] py-6">
           <svg
-            className={`${openMobile ? "opacity-100" : "opacity-0"} h-6 w-6 text-mariner-950 cursor-pointer z-30 text-primary-900-50 duration-300`}
+            className={`${openMobile ? "opacity-100" : "opacity-0"} h-6 w-6 text-cod-gray-950 cursor-pointer z-30 text-primary-900-50 duration-300`}
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="2.5"
@@ -264,7 +277,7 @@ const Navbar = ({ pathname }) => {
           </svg>
         </div>
 
-        <div className="bg-mariner-950 py-6 flex justify-center items-center">
+        <div className="bg-cod-gray-950 py-6 flex justify-center items-center">
           <a href="/#top">
             <img
               src={LOGO_PRIMARY}

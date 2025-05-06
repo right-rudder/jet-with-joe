@@ -12,10 +12,10 @@ const fastTrackRoadmap = {
       link: "/programs/private-pilot",
       paragraphs: [
         "The journey begins with earning your Private Pilot License (PPL). This certification introduces you to aviation fundamentals, including aircraft operations, flight navigation, and air traffic communication.",
-        "At Speedway Flight Training, our PPL course is designed to give you hands-on flight experience with expert one-on-one instruction. This is your first major milestone toward becoming a professional pilot."
+        "At Jet with Joe, our PPL course is designed to give you hands-on flight experience with expert one-on-one instruction. This is your first major milestone toward becoming a professional pilot."
       ],
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-132.webp",
-      imageAlt: "Speedway Flight Training student after their first solo flight"
+      imageAlt: "Jet with Joe student after their first solo flight"
     },
     {
       title: "Add an Instrument Rating (IR)",
@@ -35,7 +35,7 @@ const fastTrackRoadmap = {
         "At Speedway, our CPL training emphasizes advanced maneuvers, professionalism, and flight proficiency. This certification sets the foundation for commercial airline careers."
       ],
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp",
-      imageAlt: "Speedway Flight Training student practicing commercial maneuvers"
+      imageAlt: "Jet with Joe student practicing commercial maneuvers"
     },
     {
       title: "Earn a Flight Instructor Certificate (CFI)",
@@ -96,7 +96,7 @@ const fastTrackRoadmap = {
     }
   ],
   finalParagraph:
-    "Ready to take the first step toward becoming an airline pilot? Enroll in Speedway Flight Training’s Fast Track to the Flight Deck program and accelerate your journey to the skies.",
+    "Ready to take the first step toward becoming an airline pilot? Enroll in Jet with Joe’s Fast Track to the Flight Deck program and accelerate your journey to the skies.",
   finalButton: {
     name: "Apply Now",
     link: "/enroll",

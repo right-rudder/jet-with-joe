@@ -1,12 +1,12 @@
 const privacyPolicies = {
   data: {
-    heading: `Privacy Policy of<br /> Speedway Flight Training`,
+    heading: `Privacy Policy of<br /> Jet with Joe`,
     subheading: `Last updated: 04/04/2025`,
     content: [
       {
         heading: "Introduction",
         paragraphs: [
-          "Speedway Flight Training operates the https://speedwayft.com/ website. This page is used to inform website visitors regarding our policies on the collection, use, and disclosure of Personal Information for users who interact with our website or services.",
+          "Jet with Joe operates the https://speedwayft.com/ website. This page is used to inform website visitors regarding our policies on the collection, use, and disclosure of Personal Information for users who interact with our website or services.",
           "By using our website, you agree to the collection and use of information as outlined in this policy. The Personal Information we collect is used to provide and improve our services. We do not use or share your information except as described in this Privacy Policy.",
           "Terms used in this Privacy Policy follow the definitions provided in our Terms of Service, which is accessible at /terms-of-service unless otherwise specified.",
         ],
@@ -46,7 +46,7 @@ const privacyPolicies = {
       {
         heading: "Links to Other Sites",
         paragraphs: [
-          "Our website may include links to other websites not operated by Speedway Flight Training. We advise you to review the privacy policies of these third-party sites. We are not responsible for the content or privacy practices of any external services.",
+          "Our website may include links to other websites not operated by Jet with Joe. We advise you to review the privacy policies of these third-party sites. We are not responsible for the content or privacy practices of any external services.",
         ],
       },
       {

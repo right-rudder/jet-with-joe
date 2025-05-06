@@ -1,7 +1,7 @@
 const advantagesInfo = {
-  title: "Why Pilots Choose Speedway Flight Training",
+  title: "Why Pilots Choose Jet with Joe",
   description:
-    "At Speedway Flight Training, we provide high-quality flight training in a structured and supportive environment. With an ideal training location, a dedicated team, and career-focused programs, we set our students up for success.",
+    "At Jet with Joe, we provide high-quality flight training in a structured and supportive environment. With an ideal training location, a dedicated team, and career-focused programs, we set our students up for success.",
   advantages: [
     {
       title: "Uncongested Training Airspace",
@@ -17,7 +17,7 @@ const advantagesInfo = {
     },
   ],
   imagePath: "/src/assets/instructor-guiding-student-flight-training-speedway.webp", // Update with actual image path
-  imageAlt: "Cessna 172 parked at Speedway Flight Training during sunset",
+  imageAlt: "Cessna 172 parked at Jet with Joe during sunset",
 };
 
 export default advantagesInfo;

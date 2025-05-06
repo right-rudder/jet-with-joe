@@ -44,7 +44,7 @@ const contactPage = {
       form_url: import.meta.env.CONTACT_WEBHOOK_URL,
       redirect_url: "/contact-confirmation",
       form_h: "Connect with Us",
-      form_p1: "For questions about flight training, scheduling a discovery flight, or booking maintenance services, our team is here to assist. At Speedway Flight Training, we’re dedicated to providing personalized guidance and support throughout your aviation journey.",  
+      form_p1: "For questions about flight training, scheduling a discovery flight, or booking maintenance services, our team is here to assist. At Jet with Joe, we’re dedicated to providing personalized guidance and support throughout your aviation journey.",  
       form_p2: "Located at Atlanta Speedway Airport, we’re proud to serve aspiring pilots and aviation enthusiasts from across the region. Fill out the contact form, and one of our team members will get in touch soon to answer your questions or help with your booking.",  
       address_1: ADDRESS_LINE_1,
       address_2: ADDRESS_LINE_2,

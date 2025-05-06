@@ -1,9 +1,9 @@
 const pilotTrainingGuide = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Ascent to a Pilot Career | Speedway Flight Training",
+    pageTitle: "Ascent to a Pilot Career | Jet with Joe",
     pageDescription:
-      "Follow Speedway Flight Training’s step-by-step guide to becoming a professional pilot. From earning your Private Pilot License to landing a job with a commercial airline, discover the complete pathway to success in aviation.",
+      "Follow Jet with Joe’s step-by-step guide to becoming a professional pilot. From earning your Private Pilot License to landing a job with a commercial airline, discover the complete pathway to success in aviation.",
     pageKeywords:
       "Pilot Training Guide, ascend flight training, professional pilot pathway, private pilot license, commercial pilot training, become an airline pilot Hampton, step-by-step pilot career guide",
 
@@ -12,9 +12,9 @@ const pilotTrainingGuide = {
       stars: true,
       imagePath: "/src/assets/placeholder.webp",
       imageAlt:
-        "Speedway Flight Training student pilot and CFI flying in a Beechcraft Twin Engine",
+        "Jet with Joe student pilot and CFI flying in a Beechcraft Twin Engine",
       headerH1: `PATHWAY TO <br>COMMERCIAL AIRLINE PILOT`,
-      paragraph: `At Speedway Flight Training, we’re here to guide you through every step of your journey to becoming a professional pilot, starting from your first flight to earning your ATP certificate.`,
+      paragraph: `At Jet with Joe, we’re here to guide you through every step of your journey to becoming a professional pilot, starting from your first flight to earning your ATP certificate.`,
       buttons: [
         {
           name: "Start Your Journey",
@@ -32,7 +32,7 @@ const pilotTrainingGuide = {
     pathway: {
       heading: "Your Pathway to Becoming a Professional Pilot",
       description:
-        "Follow these steps to achieve your dream of becoming a commercial airline pilot. Speedway Flight Training is here to support you every step of the way.",
+        "Follow these steps to achieve your dream of becoming a commercial airline pilot. Jet with Joe is here to support you every step of the way.",
       steps: [
         {
           stepNumber: 1,

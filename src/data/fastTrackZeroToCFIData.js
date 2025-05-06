@@ -3,15 +3,15 @@ import { COMPANY_NAME } from "../consts";
 const fastTrackZeroToCFIData = {
   pageTitle: `Fast Track to the Flight Deck | ${COMPANY_NAME}`,
   pageDescription:
-    "Speedway Flight Training’s Fast Track to the Flight Deck program takes students from zero experience to Certified Flight Instructor (CFI) in as little as 12-18 months. Train with expert instructors, modern aircraft, and a structured curriculum designed for career-focused pilots.",
+    "Jet with Joe’s Fast Track to the Flight Deck program takes students from zero experience to Certified Flight Instructor (CFI) in as little as 12-18 months. Train with expert instructors, modern aircraft, and a structured curriculum designed for career-focused pilots.",
   pageKeywords:
-    "accelerated flight training, zero to cfi, professional pilot program, fast track pilot training, airline pilot career, aviation school Atlanta, Speedway Flight Training",
+    "accelerated flight training, zero to cfi, professional pilot program, fast track pilot training, airline pilot career, aviation school Atlanta, Jet with Joe",
 
   // Top Header
   header: {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-120-croped.webp",
-    imageAlt: "Speedway Flight Training students and instructors preparing for flights",
+    imageAlt: "Jet with Joe students and instructors preparing for flights",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
     paragraph: `An all-inclusive, structured program designed to take you from zero experience to a Certified Flight Instructor (CFI). Build flight hours, gain real-world experience, and launch your professional aviation career.`,
     buttons: [
@@ -37,11 +37,11 @@ const fastTrackZeroToCFIData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is designed for students looking to complete their training efficiently and advance toward a career in aviation.
+      Jet with Joe’s <strong>Fast Track to the Flight Deck</strong> program is designed for students looking to complete their training efficiently and advance toward a career in aviation.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Complete from <strong>zero to CFI in 12-18 months</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Choose a self-paced option if needed.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$86,125</strong> (based on <strong>265 total flight hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Includes all required licenses and ratings for professional pilot training.<br/>
@@ -104,7 +104,7 @@ const fastTrackZeroToCFIData = {
 
     cta: {
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-128.webp",
-      imageAlt: "Speedway Flight Training students in a classroom session",
+      imageAlt: "Jet with Joe students in a classroom session",
       title: "Launch Your Aviation Career with Speedway",
       description:
         "Train with expert instructors, gain hands-on experience, and complete your flight training in as little as 12-18 months. Start your journey toward a professional aviation career today!",

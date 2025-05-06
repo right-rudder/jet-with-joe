@@ -9,7 +9,7 @@ const resultC = {
     pageDescription:
       `You thrive on communication and collaboration. Whether as a commercial pilot or instructor, you’re destined to soar high while helping others reach their goals. Schedule a discovery flight with us at ${COMPANY_NAME} and take the first step towards greatness!`,
     pageKeywords:
-      `quiz, pilot quiz, Speedway, Speedway Flight Training, Hampton, Hampton, result C`,
+      `quiz, pilot quiz, Speedway, Jet with Joe, Hampton, Hampton, result C`,
 
 
     header: {

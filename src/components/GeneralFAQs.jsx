@@ -6,7 +6,7 @@ import { PHONE_NUMBER } from "../consts";
 const GeneralFAQs = () => {
   const faqs = [
     {
-      question: "Where is Speedway Flight Training located?",
+      question: "Where is Jet with Joe located?",
       answer:
         "We’re located at Atlanta Speedway Airport (KHMP) in Hampton, GA, a non-towered airport with minimal traffic—perfect for efficient flight training.",
     },
@@ -16,7 +16,7 @@ const GeneralFAQs = () => {
         "Our business hours are 9:00 AM - 4:00 PM. Flight training is available daily from 6:00 AM - 11:30 PM. For inquiries outside business hours, please contact us directly.",
     },
     {
-      question: "What pilot training programs does Speedway Flight Training offer?",
+      question: "What pilot training programs does Jet with Joe offer?",
       answer:
         "<ul className='list-disc ml-5'><li>Private Pilot License (PPL)</li><li>Instrument Rating (IR)</li><li>Commercial Pilot License (CPL)</li><li>Certified Flight Instructor (CFI & CFII)</li><li>Instrument Proficiency Check (IPC)</li><li>Biennial Flight Review (BFR)</li><li>Professional Pilot Program (Zero to Commercial)</li></ul>",
     },
@@ -97,7 +97,7 @@ const GeneralFAQs = () => {
 
   return (
     <div className="flex flex-col gap-5 max-w-3xl mt-10 lg:mt-0 mx-5">
-      <h2 className="uppercase text-mariner-950/80 tracking-widest text-center">
+      <h2 className="uppercase text-cod-gray-950/80 tracking-widest text-center">
         FAQ's
       </h2>
       <h3 className="text-4xl lg:text-6xl mx-auto font-sans2 text-center mb-5 text-primary-800">
@@ -108,7 +108,7 @@ const GeneralFAQs = () => {
           <div key={index} className="border-b border-main-black/30 pb-2" data-aos="fade up">
             <button
               onClick={() => toggleFAQ(index)}
-              className="text-xl lg:text-2xl w-full text-left flex justify-between py-3 text-mariner-950/90 hover:text-main-blue"
+              className="text-xl lg:text-2xl w-full text-left flex justify-between py-3 text-cod-gray-950/90 hover:text-main-blue"
             >
               {faq.question}
               <IoIosArrowForward

@@ -3,7 +3,7 @@ import { COMPANY_NAME } from "../consts";
 const multiEngineInstructorData = {
   pageTitle: `Multi-Engine Instructor | ${COMPANY_NAME}`,
   pageDescription:
-    "Become a certified Multi-Engine Instructor (MEI) with Speedway Flight Training. Expand your teaching credentials and prepare to guide the next generation of multi-engine pilots.",
+    "Become a certified Multi-Engine Instructor (MEI) with Jet with Joe. Expand your teaching credentials and prepare to guide the next generation of multi-engine pilots.",
   pageKeywords:
     "multi-engine instructor Georgia, MEI rating, become a flight instructor, multi-engine CFI training, aviation school Atlanta, advanced pilot certification",
 
@@ -35,11 +35,11 @@ const multiEngineInstructorData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Multi-Engine Instructor (MEI) program</strong> is ideal for Certified Flight Instructors ready to expand their capabilities.
+      Jet with Joe’s <strong>Multi-Engine Instructor (MEI) program</strong> is ideal for Certified Flight Instructors ready to expand their capabilities.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Complete in <strong>2–5 weeks</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$9,000</strong> (based on <strong>15 flight hours</strong>; additional expenses apply).<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>multi-engine aircraft</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>15 flight hours</strong> of MEI training.<br/>
       <br/>

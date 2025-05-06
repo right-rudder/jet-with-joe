@@ -2,9 +2,9 @@ const advancedTrainings = {
   data: {
     slug: "advanced-trainings",
     // SEO Header Stuff
-    pageTitle: "ADVANCED FLIGHT TRAINING | Speedway Flight Training",
+    pageTitle: "ADVANCED FLIGHT TRAINING | Jet with Joe",
     pageDescription:
-      "Enhance your aviation expertise with advanced flight training at Speedway Flight Training. Gain proficiency in complex, high-performance, multi-engine, spin training, and more.",
+      "Enhance your aviation expertise with advanced flight training at Jet with Joe. Gain proficiency in complex, high-performance, multi-engine, spin training, and more.",
     pageKeywords:
       "Advanced flight training, complex aircraft training, multi-engine rating, high-performance training, spin training, advanced pilot certifications",
 
@@ -15,7 +15,7 @@ const advancedTrainings = {
       imageAlt:
         "Pilot undergoing advanced flight training in a complex aircraft",
       headerH1: `Advanced <br>Training</span>`,
-      paragraph: `Refine your skills and elevate your proficiency with Speedway Flight Training’s advanced training. Designed for licensed pilots, these programs cover specialized areas like multi-engine operations, spin recovery, and high-performance aircraft, ensuring you're prepared for every challenge in the skies.`,
+      paragraph: `Refine your skills and elevate your proficiency with Jet with Joe’s advanced training. Designed for licensed pilots, these programs cover specialized areas like multi-engine operations, spin recovery, and high-performance aircraft, ensuring you're prepared for every challenge in the skies.`,
       buttons: [
         {
           name: "Enroll Today",
@@ -96,7 +96,7 @@ const advancedTrainings = {
         },
       ],
       finalParagraph:
-        "Whether you’re advancing your career or enhancing personal skills, Speedway Flight Training’s advanced training provide the knowledge, experience, and confidence to excel. Join us to take your flying expertise to the next level.",
+        "Whether you’re advancing your career or enhancing personal skills, Jet with Joe’s advanced training provide the knowledge, experience, and confidence to excel. Join us to take your flying expertise to the next level.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll",

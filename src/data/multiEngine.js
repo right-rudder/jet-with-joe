@@ -2,9 +2,9 @@ const multiEngineRating = {
   data: {
     slug: "multi-engine-rating",
     // SEO Header Stuff
-    pageTitle: "MULTI-ENGINE RATING | Speedway Flight Training",
+    pageTitle: "MULTI-ENGINE RATING | Jet with Joe",
     pageDescription:
-      "Expand your aviation skills with Speedway Flight Training’s Multi-Engine Rating. Gain proficiency in multi-engine aircraft and enhance your career opportunities.",
+      "Expand your aviation skills with Jet with Joe’s Multi-Engine Rating. Gain proficiency in multi-engine aircraft and enhance your career opportunities.",
     pageKeywords:
       "Multi-Engine training Hampton, multi-engine rating, multi-engine aircraft certification, FAA multi-engine endorsement, professional pilot training",
 
@@ -13,9 +13,9 @@ const multiEngineRating = {
       stars: true,
       imagePath: "/src/assets/placeholder.webp",
       imageAlt:
-        "Speedway Flight Training student flying a multi-engine Piper Seminole aircraft",
+        "Jet with Joe student flying a multi-engine Piper Seminole aircraft",
       headerH1: `Multi-Engine <br>Rating</span>`,
-      paragraph: `Master the complexities of multi-engine flight and take your piloting skills to the next level. At Speedway Flight Training, we provide focused training to help you earn your Multi-Engine Rating quickly and efficiently, opening up a world of opportunities in aviation.`,
+      paragraph: `Master the complexities of multi-engine flight and take your piloting skills to the next level. At Jet with Joe, we provide focused training to help you earn your Multi-Engine Rating quickly and efficiently, opening up a world of opportunities in aviation.`,
       buttons: [
         {
           name: "Enroll Today",
@@ -34,7 +34,7 @@ const multiEngineRating = {
       title: `Multi-Engine <br> Certification`,
       paragraphs: [
         "A Multi-Engine Rating is a vital step for pilots who want to advance their career or expand their flight capabilities. With this certification, you’ll gain proficiency in operating multi-engine aircraft, preparing you for airline operations, corporate aviation, or advanced training.",
-        "Speedway Flight Training’s Multi-Engine program focuses on real-world training scenarios, building confidence and competence in handling the increased performance and complexity of twin-engine aircraft.",
+        "Jet with Joe’s Multi-Engine program focuses on real-world training scenarios, building confidence and competence in handling the increased performance and complexity of twin-engine aircraft.",
       ],
     },
 
@@ -92,7 +92,7 @@ const multiEngineRating = {
         },
       ],
       finalParagraph:
-        "Completing your Multi-Engine Rating at Speedway Flight Training expands your opportunities in the aviation industry. With advanced training, real-world scenarios, and expert instruction, you’ll be ready to take the next step in your aviation career.",
+        "Completing your Multi-Engine Rating at Jet with Joe expands your opportunities in the aviation industry. With advanced training, real-world scenarios, and expert instruction, you’ll be ready to take the next step in your aviation career.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll",

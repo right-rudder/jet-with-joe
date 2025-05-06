@@ -3,15 +3,15 @@ import { COMPANY_NAME } from "../consts";
 const fastTrackStartingAtCPL = {
   pageTitle: `Fast Track to the Flight Deck – Commercial Pilot | ${COMPANY_NAME}`,
   pageDescription:
-    "Speedway Flight Training’s Fast Track to the Flight Deck program allows pilots with an Instrument Rating (IR) to efficiently complete their Commercial Pilot License (CPL) and Certified Flight Instructor (CFI & CFII) training.",
+    "Jet with Joe’s Fast Track to the Flight Deck program allows pilots with an Instrument Rating (IR) to efficiently complete their Commercial Pilot License (CPL) and Certified Flight Instructor (CFI & CFII) training.",
   pageKeywords:
-    "accelerated CPL training, fast track commercial pilot, professional pilot program, CFI training, CFII certification, aviation school Atlanta, Speedway Flight Training",
+    "accelerated CPL training, fast track commercial pilot, professional pilot program, CFI training, CFII certification, aviation school Atlanta, Jet with Joe",
 
   // Top Header
   header: {
     stars: true,
     imagePath: "/src/assets/stock-adrien-brun-L87clzV761M-unsplash.webp",
-    imageAlt: "Speedway Flight Training commercial pilot student preparing for a checkride",
+    imageAlt: "Jet with Joe commercial pilot student preparing for a checkride",
     headerH1: `Fast Track to <br>the Flight Deck</span>`,
     paragraph: `For pilots with an Instrument Rating (IR), this program provides a structured path to earning your Commercial Pilot License (CPL), Certified Flight Instructor (CFI), and Certified Flight Instructor - Instrument (CFII) certification.`,
     buttons: [
@@ -37,11 +37,11 @@ const fastTrackStartingAtCPL = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Fast Track to the Flight Deck</strong> program is designed for pilots who already hold an Instrument Rating and want to efficiently complete their professional training.
+      Jet with Joe’s <strong>Fast Track to the Flight Deck</strong> program is designed for pilots who already hold an Instrument Rating and want to efficiently complete their professional training.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Complete from <strong>CPL to CFII in 8-12 months</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Choose a self-paced option if needed.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$53,625</strong> (based on <strong>165 total flight hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Includes all necessary flight hours for CPL, CFI, and CFII.<br/>
@@ -97,7 +97,7 @@ const fastTrackStartingAtCPL = {
 
     cta: {
       imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-125.webp",
-      imageAlt: "Speedway Flight Training student preparing for a commercial flight checkride",
+      imageAlt: "Jet with Joe student preparing for a commercial flight checkride",
       title: "Accelerate Your Career with Structured Training",
       description:
         "Train with expert instructors and complete your Commercial Pilot License, Certified Flight Instructor, and Certified Flight Instructor - Instrument certification in as little as 8-12 months.",

@@ -16,7 +16,7 @@ const commercialPilotData = {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-71.webp",
     imageAlt:
-      "Speedway Flight Training commercial pilot student preparing for a flight",
+      "Jet with Joe commercial pilot student preparing for a flight",
     headerH1: `Commercial Pilot <br>LICENSE</span>`,
     paragraph: `Advance your aviation career with structured commercial flight training. This program enhances your flight proficiency and prepares you for real-world professional operations.`,
     buttons: [
@@ -42,11 +42,11 @@ const commercialPilotData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Commercial Pilot License (CPL) program</strong> is designed for pilots looking to <strong>turn their passion into a career</strong>. This structured program refines your flying skills, improves decision-making, and prepares you for commercial aviation.
+      Jet with Joe’s <strong>Commercial Pilot License (CPL) program</strong> is designed for pilots looking to <strong>turn their passion into a career</strong>. This structured program refines your flying skills, improves decision-making, and prepares you for commercial aviation.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Earn your CPL in <strong>6-8 months</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Train at your own pace.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$52,000</strong> (based on <strong>160 flight training hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>250 total flight hours</strong>, including <strong>100 hours as pilot-in-command (PIC)</strong> and <strong>50 hours of cross-country flight time</strong>.<br/>
@@ -107,10 +107,10 @@ const commercialPilotData = {
     cta: {
       imagePath:
         "/src/assets/atlanta-airport-Speedway-Flight-Training-133.webp",
-      imageAlt: "Speedway Flight Training commercial pilot student in flight",
+      imageAlt: "Jet with Joe commercial pilot student in flight",
       title: "Fast Track Your Career with a Commercial Pilot License",
       description:
-        "Advance your aviation career with expert training at Speedway Flight Training. Enroll in our Commercial Pilot License program today and gain the skills needed for professional flight operations.",
+        "Advance your aviation career with expert training at Jet with Joe. Enroll in our Commercial Pilot License program today and gain the skills needed for professional flight operations.",
       button: {
         name: "Apply Now",
         link: "/enroll",

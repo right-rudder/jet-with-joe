@@ -3,7 +3,7 @@ import { COMPANY_NAME } from "../consts";
 const cfiiPilotData = {
   pageTitle: `Certified Flight Instructor – Instrument (CFII) | ${COMPANY_NAME}`,
   pageDescription:
-    "Advance your aviation career with Speedway Flight Training’s Certified Flight Instructor – Instrument (CFII) program. Learn to teach instrument flight procedures and expand your opportunities in aviation education.",
+    "Advance your aviation career with Jet with Joe’s Certified Flight Instructor – Instrument (CFII) program. Learn to teach instrument flight procedures and expand your opportunities in aviation education.",
   pageKeywords:
     "certified flight instructor instrument, CFII training Georgia, IFR instructor course, flight instructor rating, aviation education Atlanta, teach instrument flight, CFII program",
 
@@ -11,7 +11,7 @@ const cfiiPilotData = {
   header: {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-129-croped.webp",
-    imageAlt: "Speedway Flight Training CFII student and instructor during IFR simulator training",
+    imageAlt: "Jet with Joe CFII student and instructor during IFR simulator training",
     headerH1: `Flight Instructor <br>INSTRUMENT (CFII)</span>`,
     paragraph: `Take your instructional skills to the next level with Speedway’s CFII program. Learn to teach instrument flight techniques and expand your professional opportunities in aviation education.`,
     buttons: [
@@ -37,10 +37,10 @@ const cfiiPilotData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Certified Flight Instructor – Instrument (CFII) program</strong> is ideal for current CFIs looking to expand their credentials and teach instrument students.
+      Jet with Joe’s <strong>Certified Flight Instructor – Instrument (CFII) program</strong> is ideal for current CFIs looking to expand their credentials and teach instrument students.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Complete your CFII in as little as <strong>4–6 weeks</strong>.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$8,125</strong> (based on <strong>25 flight training hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained fleet equipped for <strong>IFR training</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> <strong>25 hours</strong> of instrument instructor flight training.<br/>
@@ -102,7 +102,7 @@ const cfiiPilotData = {
       imageAlt: "Speedway CFII instructor preparing student for checkride",
       title: "Expand Your Career as an Instrument Instructor",
       description:
-        "Train with Speedway Flight Training and earn your CFII in a focused, professional environment. Build your skills and prepare to guide future pilots through instrument training.",
+        "Train with Jet with Joe and earn your CFII in a focused, professional environment. Build your skills and prepare to guide future pilots through instrument training.",
       button: {
         name: "Apply Now",
         link: "/enroll",

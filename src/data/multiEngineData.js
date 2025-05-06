@@ -15,7 +15,7 @@ const multiEngineData = {
   header: {
     stars: false,
     imagePath: "/src/assets/stock-chris-michals-PQXjU65EPKE-unsplash.webp",
-    imageAlt: "Multi-engine aircraft at Speedway Flight Training",
+    imageAlt: "Multi-engine aircraft at Jet with Joe",
     headerH1: `Multi-Engine <br>ADD-ON`,
     paragraph: `Expand your capabilities and career options. Our Multi-Engine Add-On is designed for pilots looking to build time, meet airline requirements, and operate complex aircraft with confidence.`,
     buttons: [
@@ -37,7 +37,7 @@ const multiEngineData = {
     upperHeading: "Expand Your Capabilities With a",
     heading: "Multi-Engine Add-On",
     subHeading:
-      "Train for complex, high-performance aircraft and build multi-engine time with personalized instruction at Speedway Flight Training.",
+      "Train for complex, high-performance aircraft and build multi-engine time with personalized instruction at Jet with Joe.",
 
     title: "Overview",
     description: `
@@ -45,7 +45,7 @@ const multiEngineData = {
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Complete in <strong>3–5 weeks</strong><br/>
       📆 <strong>Flexible Scheduling:</strong> Train on your time<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong><br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong><br/>
       💰 <strong>Estimated Cost:</strong> <strong>$15,000</strong> (based on 25 flight hours; additional expenses apply)<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained multi-engine aircraft<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>25 hours of multi-engine training</strong><br/>
@@ -100,7 +100,7 @@ const multiEngineData = {
 
     cta: {
       imagePath: "/src/assets/stock-david-b-o27uCBOPbG0-unsplash.webp",
-      imageAlt: "Multi-engine cockpit view at Speedway Flight Training",
+      imageAlt: "Multi-engine cockpit view at Jet with Joe",
       title: "Advance Your Aviation Career",
       description:
         "Get your multi-engine rating and fly with confidence. Our team is ready to guide you through every step of the process—apply today to get started.",

@@ -3,7 +3,7 @@ import { COMPANY_NAME } from "../consts";
 const whyData = {
   pageTitle: `Why Choose Speedway? | ${COMPANY_NAME}`,
   pageDescription:
-    "Discover why Speedway Flight Training is the trusted choice for flight students in the greater Atlanta area. Our personalized instruction, well-maintained fleet, and commitment to safety make us a top choice for aspiring pilots in Hampton, McDonough, Fayetteville, Griffin, and beyond.",
+    "Discover why Jet with Joe is the trusted choice for flight students in the greater Atlanta area. Our personalized instruction, well-maintained fleet, and commitment to safety make us a top choice for aspiring pilots in Hampton, McDonough, Fayetteville, Griffin, and beyond.",
   pageKeywords:
     "Flight School Atlanta, Flight School Hampton GA, pilot training near Atlanta, flight school McDonough, aviation training Georgia, flight instruction Georgia, learn to fly Atlanta",
 
@@ -11,9 +11,9 @@ const whyData = {
   header: {
     stars: true,
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-141.webp",
-    imageAlt: "Speedway Flight Training student pilot celebrating her first solo flight",
+    imageAlt: "Jet with Joe student pilot celebrating her first solo flight",
     headerH1: `Why Choose <br>Speedway?</span>`,
-    paragraph: `At Speedway Flight Training, our mission is to deliver high-quality flight training in a supportive and professional environment. From your first flight to your commercial career, we’re here to guide your journey with integrity, safety, and passion.`,
+    paragraph: `At Jet with Joe, our mission is to deliver high-quality flight training in a supportive and professional environment. From your first flight to your commercial career, we’re here to guide your journey with integrity, safety, and passion.`,
     buttons: [
       {
         name: "Enroll Today",
@@ -31,7 +31,7 @@ const whyData = {
   pageSummary: {
     title: "Why Choose Speedway?",
     paragraphs: [
-      "Speedway Flight Training offers a structured, hands-on approach to flight education with a focus on personalized instruction, safe operations, and modern training tools.",
+      "Jet with Joe offers a structured, hands-on approach to flight education with a focus on personalized instruction, safe operations, and modern training tools.",
       "Whether you're learning to fly for fun or preparing for a career, our welcoming community, experienced instructors, and reliable aircraft create the perfect environment to grow as a pilot.",
     ],
     buttons: [
@@ -87,7 +87,7 @@ const whyData = {
     finalSection: {
       heading: "Ready for Takeoff?",
       descriptions: [
-        "Speedway Flight Training is more than a school—it’s a community of future aviators and professionals who share a passion for flight.",
+        "Jet with Joe is more than a school—it’s a community of future aviators and professionals who share a passion for flight.",
         "Our programs are built to help you grow with confidence and clarity. Let’s get started on your aviation goals today.",
       ],
     },
@@ -98,7 +98,7 @@ const whyData = {
     },
     imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-43.webp",
     imageAlt:
-      "Speedway Flight Training student and instructor reviewing preflight checklist at Atlanta Speedway Airport",
+      "Jet with Joe student and instructor reviewing preflight checklist at Atlanta Speedway Airport",
   },
 };
 

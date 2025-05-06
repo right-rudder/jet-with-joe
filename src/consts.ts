@@ -44,17 +44,20 @@ export const LOCATION_KEYWORDS = {
     "Lansing IL flight school, Valparaiso Indiana aviation training, Seattle pilot training, flexible training locations USA",
 };
 
-export const OG_IMAGE = "/jet-with-joe-logo.png";
-export const LOGO = "/jet-with-joe-logo.png";
-export const LOGO_ASSETS = "/src/assets/jet-with-joe-logo.png";
+export const OG_IMAGE = "/jet-with-joe-logo.webp";
+export const LOGO = "/jet-with-joe-logo.webp";
+export const LOGO_ASSETS = "/src/assets/jet-with-joe-logo.webp";
 
 // Business info
 export const COMPANY_NAME = "Jet with Joe";
 export const COMPANY_NAME_CAPS = "JET WITH JOE";
 export const COMPANY_NICKNAME = "Jet with Joe";
-export const LOGO_PRIMARY = "/jet-with-joe-logo.png";
-export const LOGO_SECONDARY = "/jet-with-joe-logo.png";
-export const PHONE_NUMBER = ""; // TBD
+export const LOGO_PRIMARY = "/jet-with-joe-logo.webp";
+export const LOGO_SECONDARY = "/jet-with-joe-logo.webp";
+export const AIRPORT = "Akron-Canton Airport";
+export const CITIES = "Akron, Fort Myers, Chicago, Lansing, Valparaiso, and Seattle!";
+export const AIRPORT_CODE = "CAK";
+export const PHONE_NUMBER = "(012) 345-6789"; // TBD
 export const ADDRESS_LINE_1 = "3867 West Market St. #216";
 export const ADDRESS_LINE_2 = "Akron, OH 44333";
 export const ADDRESS = "3867 West Market St. #216, Akron, OH 44333";
@@ -65,11 +68,12 @@ export const GMAPS = "https://maps.app.goo.gl/hKb9eMTWDQ9uBNpE9";
 export const EMAIL_ADDRESS = "info@rightruddermarketing.com";
 
 // Social
-export const FACEBOOK_URL = "";
+export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61570027001967";
 export const INSTAGRAM_URL = "https://www.instagram.com/jet_with_joe/";
-export const LINKEDIN_URL = "";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/jetwithjoe/";
 export const X_URL = "";
 export const YOUTUBE_URL = "https://www.youtube.com/@JetwithJoe";
+export const TIKTOK = "https://www.tiktok.com/@jetwithjoe";
 export const YELP_URL = "";
 export const GITHUB_URL = "";
 

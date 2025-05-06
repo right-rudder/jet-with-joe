@@ -15,7 +15,7 @@ const certifiedFlightInstructorData = {
   header: {
     stars: true,
     imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga-croped.webp",
-    imageAlt: "Speedway Flight Training instructor guiding a student pilot",
+    imageAlt: "Jet with Joe instructor guiding a student pilot",
     headerH1: `Certified Flight <br>INSTRUCTOR (CFI)</span>`,
     paragraph: `Turn your passion for aviation into a rewarding career. Our Certified Flight Instructor program equips you with the skills, techniques, and knowledge to train the next generation of pilots.`,
     buttons: [
@@ -41,11 +41,11 @@ const certifiedFlightInstructorData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Certified Flight Instructor (CFI) program</strong> is designed for pilots looking to <strong>transition into aviation instruction</strong>. This structured program refines your flying skills, enhances your instructional techniques, and prepares you to train new pilots.
+      Jet with Joe’s <strong>Certified Flight Instructor (CFI) program</strong> is designed for pilots looking to <strong>transition into aviation instruction</strong>. This structured program refines your flying skills, enhances your instructional techniques, and prepares you to train new pilots.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Earn your CFI in <strong>4-6 weeks</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Train at your own pace.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$4,875</strong> (based on <strong>15 flight training hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>15 hours of flight training</strong> and successful completion of the <strong>Fundamentals of Instruction (FOI) and Certified Flight Instructor (CFI) exams</strong>.<br/>
@@ -106,10 +106,10 @@ const certifiedFlightInstructorData = {
       imagePath:
         "/src/assets/speedway-flight-training-aircraft-maintenance-check.webp",
       imageAlt:
-        "Speedway Flight Training instructor preparing a student for flight",
+        "Jet with Joe instructor preparing a student for flight",
       title: "Start Your Career as a Flight Instructor",
       description:
-        "Train the next generation of pilots with expert CFI training at Speedway Flight Training. Enroll in our Certified Flight Instructor program today and launch your aviation career.",
+        "Train the next generation of pilots with expert CFI training at Jet with Joe. Enroll in our Certified Flight Instructor program today and launch your aviation career.",
       button: {
         name: "Apply Now",
         link: "/enroll",

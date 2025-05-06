@@ -2,12 +2,12 @@ const programs = {
   upperHeading: "Explore",
   heading: "Our Training Programs",
   description:
-    "From your first discovery flight to becoming a flight instructor, Speedway Flight Training offers professional, structured programs for every stage of your aviation journey.",
+    "From your first discovery flight to becoming a flight instructor, Jet with Joe offers professional, structured programs for every stage of your aviation journey.",
   cards: [
     {
       title: "Private Pilot License (PPL)",
       imagePath: "/src/assets/speedway-flight-training-cessna-172-hampton-ga.webp",
-      imageAlt: "Cessna 172 aircraft at Speedway Flight Training on the runway",
+      imageAlt: "Cessna 172 aircraft at Jet with Joe on the runway",
       description:
         "Earn your Private Pilot License and build a solid foundation in aviation with hands-on training and expert instruction.",
       link: "/programs/private-pilot#top",
@@ -15,7 +15,7 @@ const programs = {
     {
       title: "Instrument Rating (IR)",
       imagePath: "/src/assets/stock-ben-knight--r4CK5tFND8-unsplash.webp",
-      imageAlt: "Close-up of modern avionics in a Speedway Flight Training aircraft",
+      imageAlt: "Close-up of modern avionics in a Jet with Joe aircraft",
       description:
         "Train to fly in low-visibility and IFR conditions with our Instrument Rating program, designed for confident, safe pilots.",
       link: "/programs/instrument-rating#top",
@@ -23,7 +23,7 @@ const programs = {
     {
       title: "Commercial Pilot License (CPL)",
       imagePath: "/src/assets/instructor-and-student-preparing-for-flight-speedway.webp",
-      imageAlt: "Speedway Flight Training aircraft in flight over Georgia",
+      imageAlt: "Jet with Joe aircraft in flight over Georgia",
       description:
         "Advance your training and open the door to professional pilot opportunities with our Commercial Pilot License course.",
       link: "/programs/commercial-pilot#top",
@@ -31,7 +31,7 @@ const programs = {
     {
       title: "Certified Flight Instructor (CFI)",
       imagePath: "/src/assets/cessna-172-in-flight-over-hampton-ga.webp",
-      imageAlt: "Speedway Flight Training instructor guiding a student pilot during pre-flight checks",
+      imageAlt: "Jet with Joe instructor guiding a student pilot during pre-flight checks",
       description:
         "Become a Certified Flight Instructor (CFI) and start your teaching journey while building time toward your aviation career.",
       link: "/programs/certified-flight-instructor#top",

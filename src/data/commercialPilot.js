@@ -2,9 +2,9 @@ const commercialPilot = {
   data: {
     slug: "commercial-pilot",
     // SEO Header Stuff
-    pageTitle: "COMMERCIAL PILOT | Speedway Flight Training",
+    pageTitle: "COMMERCIAL PILOT | Jet with Joe",
     pageDescription:
-      "Advance your aviation career with Speedway Flight Training’s Commercial Pilot program. Gain the skills, experience, and qualifications needed to become a professional pilot.",
+      "Advance your aviation career with Jet with Joe’s Commercial Pilot program. Gain the skills, experience, and qualifications needed to become a professional pilot.",
     pageKeywords:
       "Commercial Pilot training Hampton, advanced pilot certification, professional aviation career, commercial pilot license, FAA CPL training",
 
@@ -14,7 +14,7 @@ const commercialPilot = {
       imagePath: "/src/assets/placeholder.webp",
       imageAlt: "Speedway aircraft in flight, viewed from behind the pilots",
       headerH1: `Commercial <br>Pilot</span>`,
-      paragraph: `Take the next step toward a career in aviation with a Commercial Pilot License (CPL). At Speedway Flight Training, we provide advanced training that prepares you for the professional world of aviation while refining your piloting skills.`,
+      paragraph: `Take the next step toward a career in aviation with a Commercial Pilot License (CPL). At Jet with Joe, we provide advanced training that prepares you for the professional world of aviation while refining your piloting skills.`,
       buttons: [
         {
           name: "Enroll Today",
@@ -33,7 +33,7 @@ const commercialPilot = {
       title: `Commercial Pilot <br> Certification`,
       paragraphs: [
         "A Commercial Pilot License (CPL) is essential for anyone pursuing a career in aviation. This certification allows you to be compensated for flying and opens doors to opportunities such as becoming a flight instructor, corporate pilot, or airline pilot.",
-        "At Speedway Flight Training, we prioritize safety, professionalism, and precision. Our CPL training emphasizes advanced aircraft handling, complex operations, and decision-making under pressure, ensuring you graduate as a confident and capable pilot.",
+        "At Jet with Joe, we prioritize safety, professionalism, and precision. Our CPL training emphasizes advanced aircraft handling, complex operations, and decision-making under pressure, ensuring you graduate as a confident and capable pilot.",
       ],
     },
 
@@ -41,7 +41,7 @@ const commercialPilot = {
       upperHeading: "Roadmap",
       heading: "Commercial Pilot",
       descriptions: [
-        "Speedway Flight Training’s Commercial Pilot program provides structured training designed to meet FAA requirements and exceed industry expectations. From complex aircraft operations to multi-engine proficiency, we prepare you for a rewarding aviation career.",
+        "Jet with Joe’s Commercial Pilot program provides structured training designed to meet FAA requirements and exceed industry expectations. From complex aircraft operations to multi-engine proficiency, we prepare you for a rewarding aviation career.",
       ],
       steps: [
         {
@@ -60,7 +60,7 @@ const commercialPilot = {
             "These classes are designed to prepare you for the FAA Commercial Pilot Knowledge Test, ensuring you have a solid foundation in the theoretical aspects of commercial flying.",
           ],
           imagePath: "/src/assets/placeholder.webp",
-          imageAlt: "Students in a classroom at Speedway Flight Training",
+          imageAlt: "Students in a classroom at Jet with Joe",
         },
         {
           title: "Complex Aircraft Training",
@@ -102,14 +102,14 @@ const commercialPilot = {
           title: "Prepare for and Pass the Checkride",
           paragraphs: [
             "The final step in earning your Commercial Pilot License is passing the FAA CPL Checkride. This rigorous evaluation includes an oral exam to assess your theoretical knowledge and a practical flight test to demonstrate your advanced skills.",
-            "With mock checkrides, one-on-one coaching, and individualized feedback, Speedway Flight Training ensures you’re fully prepared to meet and exceed the FAA standards.",
+            "With mock checkrides, one-on-one coaching, and individualized feedback, Jet with Joe ensures you’re fully prepared to meet and exceed the FAA standards.",
           ],
           imagePath: "/src/assets/placeholder.webp",
           imageAlt: "Pilot and examiner conducting a checkride",
         },
       ],
       finalParagraph:
-        "Earning your Commercial Pilot License at Speedway Flight Training positions you for success in the aviation industry. With advanced training, professional instructors, and real-world experience, you’ll graduate ready to pursue your aviation career.",
+        "Earning your Commercial Pilot License at Jet with Joe positions you for success in the aviation industry. With advanced training, professional instructors, and real-world experience, you’ll graduate ready to pursue your aviation career.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll",

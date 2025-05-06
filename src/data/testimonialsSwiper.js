@@ -2,10 +2,10 @@ const testimonialsSwiper = {
   upperHeading: "Testimonials",
   heading: "What are our students saying?",
   description:
-    "Hear what students are saying about their experiences at Speedway Flight Training.",
+    "Hear what students are saying about their experiences at Jet with Joe.",
   cards: [
     {
-      quoteText: `“Speedway Flight Training is by far the best flight school on the south side of Atlanta. The planes and instructors are top notch. Speedway airport is fantastic for flight training. It's not too busy which allows for more training and it also has a nice FBO and staff.”`,
+      quoteText: `“Jet with Joe is by far the best flight school on the south side of Atlanta. The planes and instructors are top notch. Speedway airport is fantastic for flight training. It's not too busy which allows for more training and it also has a nice FBO and staff.”`,
       citeText: `- Noah`,
       imagePath: "/src/assets/speedway-flight-training-hampton-georgia-logo-gray.webp",
       imageAlt: "Speedway logo in gray",
@@ -17,7 +17,7 @@ const testimonialsSwiper = {
       imageAlt: "Speedway logo in gray",
     },
     {
-      quoteText: `“Speedway Flight Training is the real deal! Top notch instructors, great fleet, and affordable. I've trained with Joe for IRA rating and passed my checkride, all while working a full-time job! Loved the experience and will continue to pursue the remaining ratings needed to obtain the required minimums.”`,
+      quoteText: `“Jet with Joe is the real deal! Top notch instructors, great fleet, and affordable. I've trained with Joe for IRA rating and passed my checkride, all while working a full-time job! Loved the experience and will continue to pursue the remaining ratings needed to obtain the required minimums.”`,
       citeText: `- Elijah L.`,
       imagePath: "/src/assets/speedway-flight-training-hampton-georgia-logo-gray.webp",
       imageAlt: "Speedway logo in gray",

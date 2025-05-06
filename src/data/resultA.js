@@ -9,7 +9,7 @@ const resultA = {
     pageDescription:
       `You’re a natural adventurer with the spirit of a pilot. You’re ready to take on the skies and embrace the thrill of flying. Let’s get you started on your journey with ${COMPANY_NAME}!`,
     pageKeywords:
-      `quiz, pilot quiz, Speedway, Speedway Flight Training, Hampton, Hampton, result A`,
+      `quiz, pilot quiz, Speedway, Jet with Joe, Hampton, Hampton, result A`,
 
 
     header: {

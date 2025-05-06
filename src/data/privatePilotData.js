@@ -17,9 +17,9 @@ const privatePilotData = {
     imagePath:
       "/src/assets/atlanta-airport-Speedway-Flight-Training-132-croped.webp",
     imageAlt:
-      "Speedway Flight Training aircraft on the runway at Atlanta Speedway Airport",
+      "Jet with Joe aircraft on the runway at Atlanta Speedway Airport",
     headerH1: `Private Pilot <br>LICENSE</span>`,
-    paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Speedway Flight Training.`,
+    paragraph: `The foundation of your aviation journey. Train with expert instructors, gain real-world flight experience, and complete your Private Pilot License in as little as 8 weeks with Jet with Joe.`,
     buttons: [
       {
         name: "Apply Now",
@@ -43,11 +43,11 @@ const privatePilotData = {
 
     title: "Overview",
     description: `
-      Speedway Flight Training’s <strong>Private Pilot License (PPL) program</strong> is designed for students who want to <strong>become a certified pilot</strong> with a structured and professional training approach.
+      Jet with Joe’s <strong>Private Pilot License (PPL) program</strong> is designed for students who want to <strong>become a certified pilot</strong> with a structured and professional training approach.
       <br/><br/>
       🚀 <strong>Accelerated Program:</strong> Earn your PPL in <strong>as little as 8 weeks</strong>.<br/>
       📆 <strong>Flexible Training:</strong> Choose a self-paced option based on your schedule.<br/>
-      ✈️ <strong>Training Location:</strong> Speedway Flight Training at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
+      ✈️ <strong>Training Location:</strong> Jet with Joe at <strong>Atlanta Speedway Airport (KHMP)</strong>.<br/>
       💰 <strong>Estimated Cost:</strong> <strong>$16,250</strong> (based on <strong>50 flight training hours</strong>; additional expenses apply).<br/>
       🛩 <strong>Aircraft Used:</strong> Modern, well-maintained <strong>Cessna 172 fleet</strong>.<br/>
       📜 <strong>FAA Requirements:</strong> Minimum <strong>40 flight hours</strong>, but students typically require <strong>50+ hours</strong>.<br/>
@@ -107,7 +107,7 @@ const privatePilotData = {
     cta: {
       imagePath:
         "/src/assets/atlanta-airport-Speedway-Flight-Training-130.webp",
-      imageAlt: "Speedway Flight Training student preflighting a Cessna 172",
+      imageAlt: "Jet with Joe student preflighting a Cessna 172",
       title: "Fast Track Your Aviation Journey",
       description:
         "Take the first step toward your dream of flying. Train with experienced instructors and earn your Private Pilot License in a structured, professional, and safety-focused environment.",
