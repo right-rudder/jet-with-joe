@@ -177,7 +177,7 @@ const Navbar = ({ pathname }) => {
                     aria-label={`${COMPANY_NAME} logo`}
                     title={COMPANY_NAME}
                     loading="eager"
-                    className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw] bg-white/50  rounded-xl`}
+                    className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw] rounded-xl`}
                   />
                 </a>
                 
@@ -191,7 +191,7 @@ const Navbar = ({ pathname }) => {
               </div>
             </div>
 
-            <div className="w-full lg:hidden">
+            <div className="w-full lg:hidden flex justify-between items-center">
               <a
                 href="/#top"
                 className="relative left-2"
@@ -202,7 +202,7 @@ const Navbar = ({ pathname }) => {
                   aria-label={`${COMPANY_NAME} logo`}
                   title={COMPANY_NAME}
                   loading="eager"
-                  className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"} mx-auto object-contain duration-500 max-w-[70vw] bg-white/50  rounded-xl`}
+                  className={`${navBar || openMobile ? "h-20 lg:h-20 p-1" : "mt-4 h-20 p-2 lg:h-28"}  object-contain duration-500 max-w-[70vw] rounded-xl`}
                 />
               </a>
               <button
