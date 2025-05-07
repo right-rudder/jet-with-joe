@@ -1,15 +1,10 @@
 ---
 import IndexLayout from "../layouts/IndexLayout.astro";
 import HomeHeader from "../components/HomeHeader.astro";
+import FlightSchoolFeatures from "../components/FlightSchoolFeatures.astro";
 ---
 
 <IndexLayout siteTitle="Home" siteDescription="Welcome to my personal website!">
 	<HomeHeader />
-	<div class="flex flex-col items-center justify-center h-screen bg-cod-gray-950 text-white">
-		<h1 class="text-4xl font-bold mb-4">Welcome to My Personal Website</h1>
-		<p class="text-lg mb-8">Explore my projects, blog, and more!</p>
-		<a href="/projects" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-			View Projects
-		</a>
-	</div>
+  <FlightSchoolFeatures />
 </IndexLayout>
