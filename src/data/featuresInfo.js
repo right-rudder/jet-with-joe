@@ -1,27 +1,27 @@
 const featuresInfo = {
-  title: "Fast Track to the Flight Deck",
+  title: "Accelerated Flight Training on Your Terms",
   description:
-    "No matter where you’re starting in your aviation journey, Jet with Joe has a Fast Track path that fits your goals. Complete your ratings efficiently with structured training, flexible scheduling, and career-focused mentorship.",
+    "Jet with Joe offers flexible, affordable, and highly personalized flight training. Our independent CFIs work one-on-one with students, allowing for a customized, no-rush experience. Start from zero or pick up where you left off — our programs adapt to your needs and goals.",
   features: [
     {
-      title: "Start from Zero: Full Fast Track to CFII",
+      title: "Zero to Hero: Private to CFII",
       description:
-        "Begin your journey with no prior flight time and train through Private, Instrument, Commercial, and CFI — all in as little as 12–18 months.",
-      link: "/fast-track-program?tab=zero#info",
+        "Begin your journey with no prior flight time and progress through Private Pilot, Instrument Rating, Commercial Pilot, and Certified Flight Instructor — in as little as 5.5 months.",
+      link: "/programs/zero-to-hero#info",
       linkText: "Learn More",
     },
     {
-      title: "Start from IR: Instrument to CFII",
+      title: "Modular Programs: Pick Your Path",
       description:
-        "Already a Private Pilot? Build on your foundation with Instrument, Commercial, and Certified Flight Instructor training in as little as 10–15 months.",
-      link: "/fast-track-program?tab=ir#info",
-      linkText: "View Track",
+        "Already have some experience? Start from where you are — whether you’re pursuing Instrument, Commercial, or Instructor ratings — with training paths tailored to your current certification.",
+      link: "/programs/modular#info",
+      linkText: "Explore Paths",
     },
     {
-      title: "Start from CPL: Commercial to CFII",
+      title: "Personalized Training: Your Journey, Your Pace",
       description:
-        "If you’ve already earned your Instrument Rating, complete your CPL to CFII with Speedway’s accelerated training model — in as little as 8–12 months.",
-      link: "/fast-track-program?tab=cpl#info",
+        "No pattern purgatory here. Train at your own pace, choose your locations, and experience cross-country flights with our flexible, independent CFI network.",
+      link: "/about#personalized",
       linkText: "Get Started",
     },
   ],
