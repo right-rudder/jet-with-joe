@@ -7,7 +7,7 @@ const trainingInfo = {
     "Train in well-maintained aircraft equipped with advanced avionics.",
     "Flexible programs tailored to recreational and career pilots."
   ],
-  imagePath: "/src/assets/atlanta-airport-Speedway-Flight-Training-59-vertical.webp",
+  imagePath: "/src/assets/stock-max-nustedt-_uwWKY22_HA-unsplash.jpg",
   imageAlt: "Cessna 172 aircraft at Jet with Joe on the runway",
 };
 
