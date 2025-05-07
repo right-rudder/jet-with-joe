@@ -1,7 +1,7 @@
 ---
 import content from "../data/trainingInfo.js";
 import ImageComp from "./ImageComp.astro";
-import { GiCheckeredFlag } from "react-icons/gi";
+import { BiSolidPlaneAlt } from "react-icons/bi";
 
 
 const { title, description, bullets, imagePath, imageAlt } = content;
@@ -11,16 +11,16 @@ const { title, description, bullets, imagePath, imageAlt } = content;
   <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
     <!-- Text Content -->
     <div class="w-full lg:w-1/2" data-aos="fade-right" data-aos-delay="200">
-      <h2 class="text-3xl lg:text-5xl font-bold text-accent-400 mb-4"
+      <h2 class="text-3xl lg:text-5xl font-bold text-cod-gray-100 mb-4"
           set:html={title}
       >
       </h2>
-      <p class="text-xl text-accent-400 font-semibold mb-6">{description}</p>
+      <p class="text-xl text-cod-gray-200 font-semibold mb-6">{description}</p>
       <ul class="space-y-3">
         {bullets.map((bullet) => (
           <li class="flex items-center space-x-3">
-            <GiCheckeredFlag className="text-primary-400 w-8 text-xl"/>
-            <span class="text-accent-400 text-lg font-semibold">{bullet}</span>
+            <BiSolidPlaneAlt className="text-primary-400 w-8 text-xl"/>
+            <span class="text-accent-200 text-lg font-semibold">{bullet}</span>
           </li>
         ))}
       </ul>
