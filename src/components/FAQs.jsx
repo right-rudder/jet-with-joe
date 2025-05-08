@@ -18,7 +18,7 @@ export default function FAQs({ faqs, type }) {
     <div className="bg-cod-gray-100">
       <div className="mx-auto max-w-7xl px-6 py-8 lg:py-24 sm:py-12 lg:pt-16 lg:pb-12">
         <div className="mx-auto max-w-4xl">
-          <p className="mx-auto mt-12 uppercase text-lg lg:text-xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-sky-400">
+          <p className="mx-auto mt-12 uppercase text-lg lg:text-xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-cranberry-600">
             {type}
           </p>
           <h2 className="mx-auto mb-3 text-4xl lg:text-6xl lg:max-w-3xl font-title text-center font-bold tracking-tight text-sky-950">
