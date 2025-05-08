@@ -29,11 +29,11 @@ const Accordion = ({ faq, toggled, onShow, index }) => {
       <div
         className={`transition-all duration-700 ease-in-out overflow-hidden ${
           toggled
-            ? "max-h-[1000px] opacity-100 bg-white border-2 border-gray-200 rounded-b-lg"
+            ? "max-h-[1000px] opacity-100 bg-cod-gray-950/50 rounded-b-lg"
             : "max-h-0 opacity-0"
         }`}
       >
-        <div className="px-9 pt-0 pb-9 text-black font-medium w-full">
+        <div className="px-9 pt-0 pb-9 text-cod-gray-100 font-medium w-full">
           {faq.content && (
             <p
               className="mt-2 text-lg text-justify"
