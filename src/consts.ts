@@ -65,7 +65,7 @@ export const ADDRESS_CITY = "Akron";
 export const ADDRESS_STATE = "Ohio";
 export const ADDRESS_ZIP = "44333";
 export const GMAPS = "https://maps.app.goo.gl/hKb9eMTWDQ9uBNpE9";
-export const EMAIL_ADDRESS = "info@rightruddermarketing.com";
+export const EMAIL_ADDRESS = "info@jetwithjoe.com";
 
 // Social
 export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61570027001967";
