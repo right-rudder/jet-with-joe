@@ -1,73 +1,47 @@
 export const navbarLinks = [
   {
-    name: "Fast-Track",
-    link: "/fast-track-program#top",
-    mobileLink: true,
-    submenu: [],
-  },
-  {
-    name: "Programs",
-    link: "/programs#top",
+    name: "Fast-Track Programs",
+    link: "/fast-track#top",
     mobileLink: false,
     submenu: [
       {
-        name: "Private Pilot",
-        link: "/programs/private-pilot#top",
+        name: "Zero to Hero",
+        link: "/fast-track/zero-to-hero#top",
       },
       {
-        name: "Instrument Rating",
-        link: "/programs/instrument-rating#top",
+        name: "Instrument to CFII",
+        link: "/fast-track/instrument-to-cfii#top",
       },
       {
-        name: "Commercial Pilot",
-        link: "/programs/commercial-pilot#top",
-      },
-      {
-        name: "Flight Instructor",
-        link: "/programs/certified-flight-instructor#top",
-      },
-      {
-        name: "CFI - Instrument",
-        link: "/programs/certified-flight-instructor-instrument-cfii#top",
-      },
-      {
-        name: "Multi Engine",
-        link: "/programs/multi-engine#top",
-      },
-      {
-        name: "ME - Instructor",
-        link: "/programs/multi-engine-instructor#top",
-      },
-      {
-        name: "Spin Endorsement",
-        link: "/programs/spin-endorsement#top",
+        name: "Commercial to CFII",
+        link: "/fast-track/commercial-to-cfii#top",
       },
     ],
   },
   {
-    name: "About Us",
-    link: "/speedway#top",
+    name: "About Jet with Joe",
+    link: "/about#top",
     mobileLink: false,
     submenu: [
       {
-        name: "Fleet",
-        link: "/speedway/fleet#top",
+        name: "Our Fleet",
+        link: "/about/fleet#top",
       },
       {
-        name: "Crew",
-        link: "/speedway/crew#top",
+        name: "CFI Network",
+        link: "/about/cfi-network#top",
       },
       {
-        name: "Blog",
-        link: "/blog#top",
+        name: "Locations",
+        link: "/about/locations#top",
       },
       {
         name: "Financing",
-        link: "/speedway/financing#top",
+        link: "/about/financing#top",
       },
       {
         name: "Join the Team",
-        link: "/join-the-team#top",
+        link: "/about/join-the-team#top",
       },
     ],
   },
