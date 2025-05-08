@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Accordion from "./accordion";
-import { EMAIL_ADDRESS, COMPANY_NAME } from "../consts";
+import { EMAIL_ADDRESS } from "../consts";
 
 export default function FAQs({ faqs, type }) {
   const [open, setOpen] = useState("");
@@ -13,35 +13,6 @@ export default function FAQs({ faqs, type }) {
       setOpen(e.target.id);
     }
   };
-
-  // Generate FAQ schema for SEO
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question || faq.title,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer || faq.content,
-      },
-    })),
-  };
-
-  // Convert schema to string for inclusion in script tag
-  const faqSchemaString = JSON.stringify(faqSchema);
-
-  // Add schema to document head
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = faqSchemaString;
-    document.head.appendChild(script);
-
-    return () => {
-      document.head.removeChild(script);
-    };
-  }, [faqSchemaString]);
 
   return (
     <div className="bg-white">
