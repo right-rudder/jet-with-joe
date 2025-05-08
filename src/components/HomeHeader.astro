@@ -1,0 +1,73 @@
+---
+import { ADDRESS_CITY, ADDRESS_STATE, CITIES } from "../consts";
+import { Image } from "astro:assets";
+import HeroImage from "../assets/stock-ben-knight--r4CK5tFND8-unsplash.jpg";
+
+const data = {
+  imageAlt: "Jet with Joe aircraft flying over Hampton, Georgia",
+  catch: "Change your altitude!",
+  title: `Accelerated Flight Training Programs in ${CITIES || `${ADDRESS_CITY}, ${ADDRESS_STATE}`}`,
+  buttons: [
+    {
+      text: "Discovery flight",
+      link: "/discovery-flight",
+    },
+    {
+      text: "More Info",
+      link: "#info",
+    },
+  ],
+};
+---
+
+<section
+  class="relative h-[100vh] lg:h-[83vh] overflow-hidden flex items-center justify-center md:justify-end p-0 m-0"
+  aria-label="Jet with Joe, Atlanta Speedway Airport, Hampton, Georgia"
+>
+
+  {HeroImage && (
+    <div class="absolute -z-30 inset-0" aria-hidden="true">
+        <Image
+          src={HeroImage}
+          alt={data.imageAlt}
+          width={2440}
+          fetchpriority="high"
+          class="object-cover h-full w-full object-left-30 lg:object-center contrast-125 opacity-30"
+          widths={[540, 720, 1080, 1440, 1980, 2440]}
+          sizes={`(max-width: 540px) 540px, (max-width: 720px) 720px, (max-width: 1080px) 1080px, (max-width: 1440px) 1440px, (max-width: 1920px) 1920px, 2440px`}
+        />
+    </div>
+  )}
+
+  <div
+    class="absolute h-full w-full -z-20 inset-0"
+    aria-hidden="true"
+  >
+  </div>
+  <div class="flex flex-col justify-center px-4 md:pr-24 text-accent-100 text-center md:items-end md:text-right max-w-4xl h-full"
+    data-aos="fade-left"
+  >
+    <p
+      class="text-6xl uppercase text-accent-100 font-sans2 md:text-7xl lg:text-8xl font-medium tracking-wide drop-shadow-md"
+      data-aos="fade-up"
+      set:html={data.catch}
+    ></p>
+
+    <h1
+      class="text-2xl lg:text-4xl max-w-3xl mt-3 text-accent-100 font-semibold tracking-wide drop-shadow-md "
+      set:html={data.title}
+    ></h1>
+
+    <div class="pt-16 w-full flex justify-end items-center gap-8 md:gap-16">
+      {     
+        data.buttons.map((button) => (
+          <a
+            href={button.link}
+            class="btn-accent"
+            set:html={button.text}
+          ></a>
+        ))
+      }
+    </div>
+  </div>
+</section>

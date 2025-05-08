@@ -1,0 +1,270 @@
+---
+import "../styles/global.css";
+import { COMPANY_NAME, INSTAGRAM_URL, PHONE_NUMBER, OG_IMAGE } from "../consts";
+
+interface Props {
+  title: string;
+  description: string;
+  keywords: string;
+  image?: string;
+}
+
+const site = Astro.site || "https://speedwayft.com/";
+
+const canonicalURL = new URL(Astro.url.pathname, site);
+
+const { title, description, keywords, image = OG_IMAGE } = Astro.props;
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<!-- Site Created By:    
+       _____  _       _     _     _____           _     _           
+      |  __ \(_)     | |   | |   |  __ \         | |   | |          
+      | |__) |_  __ _| |__ | |_  | |__) |   _  __| | __| | ___ _ __ 
+      |  _  /| |/ _` | '_ \| __| |  _  / | | |/ _` |/ _` |/ _ \ '__|
+      | | \ \| | (_| | | | | |_  | | \ \ |_| | (_| | (_| |  __/ |   
+      |_|  \_\_|\__, |_| |_|\__| |_|  \_\__,_|\__,_|\__,_|\___|_|   
+      |  \/  |   __/ |  | |      | | (_)                            
+      | \  / | _|___/ __| | _____| |_ _ _ __   __ _                 
+      | |\/| |/ _` | '__| |/ / _ \ __| | '_ \ / _` |                
+      | |  | | (_| | |  |   <  __/ |_| | | | | (_| |                
+      |_|  |_|\__,_|_|  |_|\_\___|\__|_|_| |_|\__, |                
+                                               __/ |                
+                                              |___/                 
+
+    Nice to see you here.  Find new student pilots with Right Rudder Marketing.  https://rightruddermarketing.com/contact-us -->
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link
+  rel="icon"
+  type="image/svg+xml"
+  href={OG_IMAGE}
+/>
+<meta name="generator" content={Astro.generator} />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image, Astro.url)} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- UPDATE GTAG PLEASE -->
+<!-- Google tag (gtag.js) -->
+<script
+  type="text/partytown"
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-DS9NE5XMD9"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DS9NE5XMD9');
+</script>
+
+<!-- NEED TO UPDATE SCHEMA -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FlightSchool",
+    "name": "Jet with Joe",
+    "description": "Jet with Joe, based at Atlanta Speedway Airport (KHMP) in Hampton, GA, offers structured, accelerated flight training programs with a well-maintained fleet and experienced instructors. From Private Pilot to CFI, students train in a safety-focused, community-driven environment.",
+    "keywords": "Jet with Joe, Atlanta Speedway flight school, how to become a pilot, flight school near Atlanta, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot, flight training, pilot training, aviation school in Georgia, Cessna 172 training, discovery flights Atlanta, pilot school near me, flight training in Hampton, Peachtree City, McDonough, Griffin, Stockbridge",
+    "image": "/speedway-flight-training-written-logo.png",
+    "logo": "/speedway-flight-training-hampton-georgia-logo-red.png",
+    "telephone": "(678) 944-7379",
+    "email": "info@SpeedwayFT.com",
+    "url": "https://speedwayft.com/",
+    "sameAs": [
+      "https://www.facebook.com/people/Speedway-Flight-Training/100063508869267/",
+      "https://www.instagram.com/speedway_flight_training/",
+      "https://www.yelp.com/biz/speedway-flight-training"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "474 Speedway Blvd",
+      "addressLocality": "Hampton",
+      "addressRegion": "GA",
+      "postalCode": "30228",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.39123572974996,
+      "longitude": -84.3255318482056
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Hampton",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "McDonough",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "Griffin",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "Peachtree City",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "Stockbridge",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Georgia"
+        }
+      }
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Course",
+          "name": "Private Pilot License",
+          "description": "Earn your Private Pilot License (PPL) and start your aviation journey with expert instruction and hands-on flight experience.",
+          "provider": {
+            "@type": "FlightSchool",
+            "name": "Jet with Joe",
+            "sameAs": "https://speedwayft.com/"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Course",
+          "name": "Instrument Rating",
+          "description": "Master instrument-based navigation and enhance your safety in all weather conditions with our Instrument Rating course.",
+          "provider": {
+            "@type": "FlightSchool",
+            "name": "Jet with Joe",
+            "sameAs": "https://speedwayft.com/"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Course",
+          "name": "Commercial Pilot License",
+          "description": "Turn your passion into a profession with our Commercial Pilot License (CPL) training program.",
+          "provider": {
+            "@type": "FlightSchool",
+            "name": "Jet with Joe",
+            "sameAs": "https://speedwayft.com/"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Course",
+          "name": "Multi-Engine Rating",
+          "description": "Expand your capabilities with advanced multi-engine aircraft training at Jet with Joe.",
+          "provider": {
+            "@type": "FlightSchool",
+            "name": "Jet with Joe",
+            "sameAs": "https://speedwayft.com/"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Course",
+          "name": "Certified Flight Instructor",
+          "description": "Share your skills and inspire the next generation of aviators with our CFI program.",
+          "provider": {
+            "@type": "FlightSchool",
+            "name": "Jet with Joe",
+            "sameAs": "https://speedwayft.com/"
+          }
+        }
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "34"
+    },
+    "paymentAccepted": "Cash, Credit Card, Visa, Mastercard, American Express, Discover",
+    "priceRange": "$$",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "name": "IATA Code",
+        "value": "HMP"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ICAO Code",
+        "value": "KHMP"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Airport Code",
+        "value": "KHMP"
+      }
+    ],
+    "hasMap": "https://maps.app.goo.gl/jgGYGrkLEd8Mjuu19"
+  }
+</script>
