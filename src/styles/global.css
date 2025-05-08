@@ -80,12 +80,12 @@
   }
 
   .bg-checkered {
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../assets/webb-dark.png);
     z-index: -100;
   }
 
   .bg-checkered-navy {
-    background-image:linear-gradient(to top, #000c1af3 0%, #000c1af3 100%), url(../assets/checkered-background-speedway-hampton-atlanta-cessna-flight-school.png);
+    background-image:linear-gradient(to top, #000c1af3 0%, #000c1af3 100%), url(../assets/webb-dark.png);
     z-index: -100;
   }
 
