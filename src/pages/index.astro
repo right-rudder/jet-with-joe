@@ -10,7 +10,8 @@ import { GeneralFAQs } from "../data/general-faqs";
 import FAQs from "../components/FAQs";
 import FAQSchema from "../components/FAQSchema.astro";
 
-
+const siteTitle = "Jet with Joe | Accelerated Flight Training with Independent CFIs";
+const siteDescription = "Jet with Joe offers accelerated flight training with independent CFIs across multiple U.S. locations. Train on your schedule, fly anywhere, and get certified faster with our flexible, affordable programs. Financing available through Stratus Financial.";
 const heroContent = {
   title: "Accelerated. Flexible. Independent.",
   paragraphs: [
@@ -34,7 +35,7 @@ const faqSchemaItems = GeneralFAQs.map((faq) => ({
 }));
 ---
 
-<IndexLayout siteTitle="Home" siteDescription="Welcome to my personal website!">
+<IndexLayout siteTitle={siteTitle} siteDescription={siteDescription}>
 	<HomeHeader />
   <FlightSchoolFeatures />
   <FlightTrainingSection />

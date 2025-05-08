@@ -21,7 +21,7 @@ export default function FAQs({ faqs, type }) {
           <p className="mx-auto mt-12 uppercase text-lg lg:text-xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-cranberry-600">
             {type}
           </p>
-          <h2 className="mx-auto mb-3 text-4xl lg:text-6xl lg:max-w-3xl font-title text-center font-bold tracking-tight text-sky-950">
+          <h2 className="mx-auto mb-3 text-4xl lg:text-6xl lg:max-w-3xl font-title text-center font-bold tracking-tight text-primary-950">
             Frequently Asked Questions
           </h2>
           <dl className="flex flex-col gap-2 mt-6">
@@ -40,7 +40,7 @@ export default function FAQs({ faqs, type }) {
           If you have any additional questions please send us an email to{" "}
           <a
             href={`mailto:${EMAIL_ADDRESS}`}
-            className="text-sky-500 hover:underline"
+            className="text-primary-500 hover:underline"
           >
             {EMAIL_ADDRESS}
           </a>
