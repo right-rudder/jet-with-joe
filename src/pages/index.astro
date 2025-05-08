@@ -6,6 +6,9 @@ import FlightTrainingSection from "../components/FlightTrainingSection.astro";
 import YouTubeSection from "../components/YouTubeSection.astro";
 import Welcome from "../components/Welcome.astro";
 import FlightTrainingAdvantages from "../components/FlightTrainingAdvantages.astro";
+import { GeneralFAQs } from "../data/general-faqs";
+import FAQs from "../components/FAQs";
+import FAQSchema from "../components/FAQSchema.astro";
 
 
 const heroContent = {
@@ -24,6 +27,11 @@ const heroContent = {
     },
   ],
 };
+const faqSchemaItems = GeneralFAQs.map((faq) => ({
+  question: faq.title,
+  // Remove HTML tags for clean schema
+  answer: faq.content.replace(/<[^>]*>?/gm, ""),
+}));
 ---
 
 <IndexLayout siteTitle="Home" siteDescription="Welcome to my personal website!">
@@ -32,8 +40,7 @@ const heroContent = {
   <FlightTrainingSection />
   <Welcome content={heroContent} />
   <FlightTrainingAdvantages />
-
-
-
   <YouTubeSection />
+  <FAQs faqs={GeneralFAQs} type="General" client:visible />
+  <FAQSchema items={faqSchemaItems} />
 </IndexLayout>
