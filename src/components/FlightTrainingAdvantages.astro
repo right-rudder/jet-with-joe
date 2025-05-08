@@ -19,17 +19,17 @@ const { title, description, advantages, imagePath, imageAlt } = content;
 
     <!-- Text Content (Right) -->
     <div class="w-full lg:w-1/2">
-      <h2 class="text-3xl lg:text-5xl font-bold text-accent-200 mb-4">
+      <h2 class="text-3xl lg:text-5xl font-bold text-accent-400 mb-4">
         {title}
       </h2>
-      <p class="text-lg text-accent-200 mb-6">{description}</p>
+      <p class="text-lg text-cod-gray-200 mb-6">{description}</p>
       <ul class="space-y-4">
         {advantages.map((advantage, index) => (
           <li class="flex items-center space-x-3" data-aos="fade-right" data-aos-delay={index * 100}>
-            <span class="text-primary-700 text-2xl"><FaCheck /></span>
+            <span class="text-primary-500 text-2xl"><FaCheck /></span>
             <div>
-              <h3 class="text-lg font-semibold text-accent-100">{advantage.title}</h3>
-              <p class="text-accent-200">{advantage.description}</p>
+              <h3 class="text-lg font-semibold text-cranberry-400">{advantage.title}</h3>
+              <p class="text-cod-gray-200">{advantage.description}</p>
             </div>
           </li>
         ))}
