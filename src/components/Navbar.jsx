@@ -101,14 +101,14 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className={`${navBar || openMobile ? "text-accent-100" : "text-accent-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-primary-700 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
+                          className={`${navBar || openMobile ? "text-accent-100" : "text-accent-100"} font-bold font-sans text-xl duration-300 hover:underline decoration-cranberry-500 decoration-2 underline-offset-[10px] border-primary whitespace-nowrap `}
                         >
                           <span className="relative block">
                             {item.name}
                           </span>
                         </a>
                       ) : (
-                        <span className="font-medium cursor-default text-2xl duration-300 hover:underline decoration-primary-300 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
+                        <span className="font-medium cursor-default text-2xl duration-300 hover:underline decoration-cranberry-300 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
                           {item.name}
                         </span>
                       )}
@@ -119,7 +119,7 @@ const Navbar = ({ pathname }) => {
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "scale-110  text-accent-100" : ""} relative hover:bg-primary-700 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
+                              className={`${isActive(subitem, pathname) ? "scale-110  text-accent-100" : ""} relative hover:bg-cranberry-500 hover:scale-110 duration-200 px-3 hover:shadow-sm drop-shadow-sm font-bold hover:text-accent-100`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
@@ -184,7 +184,7 @@ const Navbar = ({ pathname }) => {
                 <div
                   className="relative hover:brightness-110 duration-200 ease-in-out flex-1 min-w-0 lg:w-1/3 flex justify-end items-center"
                 >
-                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent hover:bg-primary-700" : ""}`}> 
+                  <a href="/enroll" className={`btn-primary ${navBar || openMobile ? "btn-accent" : ""}`}> 
                    Enroll
                   </a>
                 </div>

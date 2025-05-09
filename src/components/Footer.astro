@@ -50,7 +50,7 @@ const { pathname } = Astro.url;
         </a>
         <div class="mt-2 lg:max-w-sm font-sans2">
           <p
-            class="text-sm text-accent-100 px-3 lg:px-0 text-center lg:text-justify"
+            class="text-sm text-cod-gray-100 px-3 lg:px-0 text-center lg:text-justify"
           >
             {SITE_DESCRIPTION}
           </p>
@@ -59,13 +59,13 @@ const { pathname } = Astro.url;
           >
             <a
               href="/privacy-policy"
-              class="mt-3 mr-4 transition-colors duration-300 text-sm text-accent-100 hover:text-primary-200"
+              class="mt-3 mr-4 transition-colors duration-300 text-sm text-cod-gray-100 hover:text-accent-200"
               >Privacy Policy
             </a>
-            <span class="text-primary-700 text-sm pt-3"> &#x2022; </span>
+            <span class="text-cranberry-500 text-sm pt-3"> &#x2022; </span>
             <a
               href="/terms-of-service"
-              class="mt-3 ml-4 transition-colors duration-300 text-sm text-accent-100 hover:text-primary-200"
+              class="mt-3 ml-4 transition-colors duration-300 text-sm text-cod-gray-100 hover:text-accent-200"
               >Terms of Service
             </a>
           </div>
@@ -77,7 +77,7 @@ const { pathname } = Astro.url;
             <div
               class={`${index % 2 === 0 ? "text-left" : "text-right lg:text-left"} lg:col-span-2`}
             >
-              <p class="font-bold text-xl font-sans lg:text-lg tracking-wide text-primary-700">
+              <p class="font-bold text-xl font-sans lg:text-lg tracking-wide text-cranberry-400">
                 {column.title}
               </p>
               <ul class="mt-2 space-y-2 text-lg font-sans2 lg:text-md">
@@ -86,7 +86,7 @@ const { pathname } = Astro.url;
                     <a
                       href={link.link}
                       target={link.target}
-                      class="transition-colors duration-300 text-accent-100 hover:text-primary-200"
+                      class="transition-colors duration-300 text-cod-gray-100 hover:text-accent-200"
                     >
                       {link.name}
                     </a>
@@ -101,13 +101,13 @@ const { pathname } = Astro.url;
             LOCATIONS.map((location, index) => (
               <div class="text-right lg:text-center bg-primary-200/20 rounded p-2 lg:pt-8 text-sm lg:text-lg">
                 <p
-                  class="font-bold tracking-wide text-base text-primary-600 leading-none"
+                  class="font-bold tracking-wide text-base text-cranberry-400 leading-none"
                   set:html={location.title}
                 />
                 <a
                   href={location.gMaps}
                   target="_blank"
-                  class="mt-2 space-y-1 font-sans2 transition-colors text-xs lg:text-base duration-300 text-accent-100 hover:text-primary-200"
+                  class="mt-2 space-y-1 font-sans2 transition-colors text-xs lg:text-base duration-300 text-cod-gray-100 hover:text-accent-200"
                 >
                   <span class="">{location.address}</span>
                   <br />
@@ -119,7 +119,7 @@ const { pathname } = Astro.url;
                   aria-labelledby="Call Us Now"
                   title="Call Us Now"
                   href={`tel:${location.phone}`}
-                  class="mt-3 text-right justify-end lg:justify-center font-sans2 lg:text-center transition-colors duration-300 text-accent-100 hover:text-primary-200 flex items-center align-middle"
+                  class="mt-3 text-right justify-end lg:justify-center font-sans2 lg:text-center transition-colors duration-300 text-cod-gray-100 hover:text-accent-200 flex items-center align-middle"
                 >
                   <FaPhoneSquareAlt className="mr-2 text-lg" />
                   {location.phone}
@@ -138,12 +138,12 @@ const { pathname } = Astro.url;
       <p class="text-sm text-gray-100 text-center">
         © Copyright {year} {COMPANY_NAME} LLC. All rights reserved.
       </p>
-      <span class="text-accent-100 text-center flex gap-2">
+      <span class="text-cod-gray-100 text-center flex gap-2">
         Powered by
         <a
           href="https://rightruddermarketing.com/"
           target="_blank"
-          class="text-bold group hover:underline hover:text-accent-100/70 flex gap-2 duration-200"
+          class="text-bold group hover:underline hover:text-cod-gray-100/70 flex gap-2 duration-200"
         >
           <ImageComp
             imagePath="/src/assets/RRM-R-symbol-474.webp"
@@ -163,7 +163,7 @@ const { pathname } = Astro.url;
           target="_blank"
           aria-label="Instagram"
           title="Instagram"
-          class="transition-colors duration-300 text-accent-100 hover:text-primary-700 hover:scale-105"
+          class="transition-colors duration-300 text-cod-gray-100 hover:text-cranberry-500 hover:scale-105"
         >
           <svg viewBox="0 0 30 30" fill="currentColor" class="h-10 lg:h-6">
             <circle cx="15" cy="15" r="4"></circle>
@@ -177,7 +177,7 @@ const { pathname } = Astro.url;
           target="_blank"
           aria-label="Facebook"
           title="Facebook"
-          class="transition-colors duration-300 text-accent-100 hover:text-primary-700 hover:scale-105"
+          class="transition-colors duration-300 text-cod-gray-100 hover:text-cranberry-500 hover:scale-105"
         >
           <svg viewBox="0 0 24 24" fill="currentColor" class="h-8 lg:h-5">
             <path

@@ -44,16 +44,16 @@ export const LOCATION_KEYWORDS = {
     "Lansing IL flight school, Valparaiso Indiana aviation training, Seattle pilot training, flexible training locations USA",
 };
 
-export const OG_IMAGE = "/jet-with-joe-logo-white.webp";
-export const LOGO = "/jet-with-joe-logo-white.webp";
-export const LOGO_ASSETS = "/src/assets/jet-with-joe-logo-white.webp";
+export const OG_IMAGE = "/jet-with-joe-logo-yellow.webp";
+export const LOGO = "/jet-with-joe-logo-yellow.webp";
+export const LOGO_ASSETS = "/src/assets/jet-with-joe-logo-yellow.webp";
 
 // Business info
 export const COMPANY_NAME = "Jet with Joe";
 export const COMPANY_NAME_CAPS = "JET WITH JOE";
 export const COMPANY_NICKNAME = "Jet with Joe";
-export const LOGO_PRIMARY = "/jet-with-joe-logo-white.webp";
-export const LOGO_SECONDARY = "/jet-with-joe-logo-white.webp";
+export const LOGO_PRIMARY = "/jet-with-joe-logo-yellow.webp";
+export const LOGO_SECONDARY = "/jet-with-joe-logo-yellow.webp";
 export const AIRPORT = "Akron-Canton Airport";
 export const CITIES = "Akron, Fort Myers, Chicago, Lansing, Valparaiso, and Seattle!";
 export const AIRPORT_CODE = "CAK";
@@ -65,7 +65,7 @@ export const ADDRESS_CITY = "Akron";
 export const ADDRESS_STATE = "Ohio";
 export const ADDRESS_ZIP = "44333";
 export const GMAPS = "https://maps.app.goo.gl/hKb9eMTWDQ9uBNpE9";
-export const EMAIL_ADDRESS = "info@rightruddermarketing.com";
+export const EMAIL_ADDRESS = "info@jetwithjoe.com";
 
 // Social
 export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61570027001967";

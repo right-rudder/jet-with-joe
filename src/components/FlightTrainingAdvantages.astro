@@ -6,7 +6,7 @@ import ImageComp from "./ImageComp.astro";
 const { title, description, advantages, imagePath, imageAlt } = content;
 ---
 
-<section class="py-16 lg:py-24">
+<section class="py-16 lg:py-24 bg-checkered bg-fixed">
   <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
     <!-- Image Section (Left) -->
     <div class="w-full lg:w-1/2" data-aos="fade-right">
@@ -19,17 +19,20 @@ const { title, description, advantages, imagePath, imageAlt } = content;
 
     <!-- Text Content (Right) -->
     <div class="w-full lg:w-1/2">
-      <h2 class="text-3xl lg:text-5xl font-bold text-accent-200 mb-4">
+      <p class="mx-auto mb-8 uppercase text-lg lg:text-xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-cranberry-600">
+        Why Jet with Joe?
+      </p>
+      <h2 class="text-3xl lg:text-5xl font-bold text-accent-400 mb-4">
         {title}
       </h2>
-      <p class="text-lg text-accent-200 mb-6">{description}</p>
+      <p class="text-lg text-cod-gray-200 mb-6">{description}</p>
       <ul class="space-y-4">
         {advantages.map((advantage, index) => (
           <li class="flex items-center space-x-3" data-aos="fade-right" data-aos-delay={index * 100}>
-            <span class="text-primary-700 text-2xl"><FaCheck /></span>
+            <span class="text-accent-500 text-2xl"><FaCheck /></span>
             <div>
-              <h3 class="text-lg font-semibold text-accent-100">{advantage.title}</h3>
-              <p class="text-accent-200">{advantage.description}</p>
+              <h3 class="text-lg font-semibold text-cranberry-400">{advantage.title}</h3>
+              <p class="text-cod-gray-200">{advantage.description}</p>
             </div>
           </li>
         ))}
